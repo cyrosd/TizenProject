@@ -1,0 +1,26 @@
+<animation id="tizen.animator.entrance.lightSpeedIn" displayName="lightSpeedIn" smallIcon="tizen_animator_entrance_lightspeedin.png" icon.16 ="tizen_animator_entrance_lightspeedin.png" category="entrance" description="TBD">
+<property name="0%" type="string" displayName="0%">
+<property name="opacity" type="string" displayName="opacity" default="0"/>
+<property name="translateX" type="string" displayName="translateX" default="100%"/>
+<property name="translateY" type="string" displayName="translateY" default="0%"/>
+<property name="skewX" type="string" displayName="skewX" default="-30deg"/>
+</property>
+<property name="60%" type="string" displayName="60%">
+<property name="opacity" type="string" displayName="opacity" default="1"/>
+<property name="translateX" type="string" displayName="translateX" default="-20%"/>
+<property name="translateY" type="string" displayName="translateY" default="0%"/>
+<property name="skewX" type="string" displayName="skewX" default="30deg"/>
+</property>
+<property name="80%" type="string" displayName="80%">
+<property name="opacity" type="string" displayName="opacity" default="1"/>
+<property name="translateX" type="string" displayName="translateX" default="0%"/>
+<property name="translateY" type="string" displayName="translateY" default="0%"/>
+<property name="skewX" type="string" displayName="skewX" default="-15deg"/>
+</property>
+<property name="100%" type="string" displayName="100%">
+<property name="opacity" type="string" displayName="opacity" default="1"/>
+<property name="translateX" type="string" displayName="translateX" default="0%"/>
+<property name="translateY" type="string" displayName="translateY" default="0%"/>
+<property name="skewX" type="string" displayName="skewX" default="0deg"/>
+</property>
+<property name="duration" type="string" displayName="Duration" default="1s" /></animation>

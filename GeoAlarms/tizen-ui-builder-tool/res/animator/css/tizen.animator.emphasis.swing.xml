@@ -1,0 +1,26 @@
+<animation id="tizen.animator.emphasis.swing" displayName="swing" smallIcon="tizen_animator_emphasis_swing.png" icon.16 ="tizen_animator_emphasis_swing.png" category="emphasis" description="TBD">
+<property name="0%" type="string" displayName="0%">
+<property name="-webkit-transform-origin" type="string" displayName="-webkit-transform-origin" default="top center"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="0deg"/>
+</property>
+<property name="20%" type="string" displayName="20%">
+<property name="-webkit-transform-origin" type="string" displayName="-webkit-transform-origin" default="top center"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="15deg"/>
+</property>
+<property name="40%" type="string" displayName="40%">
+<property name="-webkit-transform-origin" type="string" displayName="-webkit-transform-origin" default="top center"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="-10deg"/>
+</property>
+<property name="60%" type="string" displayName="60%">
+<property name="-webkit-transform-origin" type="string" displayName="-webkit-transform-origin" default="top center"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="5deg"/>
+</property>
+<property name="80%" type="string" displayName="80%">
+<property name="-webkit-transform-origin" type="string" displayName="-webkit-transform-origin" default="top center"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="-5deg"/>
+</property>
+<property name="100%" type="string" displayName="100%">
+<property name="-webkit-transform-origin" type="string" displayName="-webkit-transform-origin" default="top center"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="0deg"/>
+</property>
+<property name="duration" type="string" displayName="Duration" default="1s" /></animation>

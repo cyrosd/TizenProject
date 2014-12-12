@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget id="tizen.selectmenu" displayName="Select Menu"
+	smallIcon="selectmenu_small.png" icon.16="selectmenu_16.png"
+	category="Form Elements"
+	description="The select menu widget is used to select a value in the menu."
+	helpCategory="Tizen_Widget"
+	helpContents=""
+	uiSelector="#%id%"
+	xpath="//div[@data-role='fieldcontain' and select]"
+	childXpath="//div[@data-role='fieldcontain' and select]/select"
+	selfChildXpath="./select">
+
+	<relations>
+		<content ids="tizen.selectmenuitem,tizen.selectmenuitemgroup"/>
+	</relations>
+
+	<property name="id"   type="string" displayName="ID"          default="" category="Common" xpath="select" attrXpath="id">
+		<condition name="string-id" error="string-id"/>
+	</property>
+	<!-- <property name="text" type="string" displayName="Text"        default="" initValue="Choose:"/> -->
+	<property name="name" type="string" displayName="Name" default="" xpath="select" attrXpath="name"/>
+	<property name="data-icon"   type="tizen@icon-down" displayName="Icon"   default="" xpath="select" attrXpath="data-icon"/>
+	<property name="data-inline" type="tizen@boolean2"  displayName="Inline" default="" xpath="select" attrXpath="data-inline"/>
+
+	<event name="ontap" displayName="Tap" eventType="event.defaultevent" />
+	<event name="ontaphold" displayName="TapHold" eventType="event.defaultevent" />
+	<event name="onswipe" displayName="Swipe" eventType="event.defaultevent" />
+	<event name="onswipeleft" displayName="SwipeLeft" eventType="event.defaultevent" />
+	<event name="onswiperight" displayName="SwipeRight" eventType="event.defaultevent" />
+
+	<xsl-for-output xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+		<xsl:template match="tizen.selectmenu">
+			<div data-role="fieldcontain">
+				<xsl:call-template name="print-part-id"/>
+				<!-- <xsl:if test="@text[string-length(.) > 0]">
+					<label>
+						<xsl:attribute name="for">
+							<xsl:value-of select="@id"/>
+						</xsl:attribute>
+						<xsl:value-of select="@text"/>
+					</label>
+				</xsl:if> -->
+				<select>
+					<xsl:apply-templates select="@*[name() != 'text']" mode="simple-property"/>
+					<xsl:apply-templates select="*"/>
+					<!-- 
+					<xsl:apply-templates select="tizen.selectmenuitemgroup"/>
+					<xsl:apply-templates select="tizen.selectmenuitem"/>
+					 -->
+				</select>
+			</div>
+		</xsl:template>
+	</xsl-for-output>
+</widget>

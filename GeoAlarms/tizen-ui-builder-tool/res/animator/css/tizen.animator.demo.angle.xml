@@ -1,0 +1,38 @@
+<animation id="tizen.animator.demo.angle" displayName="angle"
+	smallIcon="tizen_animator_angle_small.png" icon.16="tizen_animator_angle_16.png"
+	category="demo" description="TBD">
+	<property name="0%" type="string" displayName="0%">
+		<property name="-webkit-transform" type="string" displayName="Webkit Transform"
+			default="rotate(0deg)" />
+	</property>
+	<property name="14.2857%" type="string" displayName="14.2857%">
+		<property name="-webkit-transform" type="string" displayName="Webkit Transform"
+			default="rotate(50deg)" />
+	</property>
+	<property name="28.5714%" type="string" displayName="28.5714%">
+		<property name="-webkit-transform" type="string" displayName="Webkit Transform"
+			default="rotate(-50deg)" />
+	</property>
+	<property name="42.8571%" type="string" displayName="42.8571%">
+		<property name="-webkit-transform" type="string" displayName="Webkit Transform"
+			default="rotate(25deg)" />
+	</property>
+	<property name="57.1429%" type="string" displayName="57.1429%">
+		<property name="-webkit-transform" type="string" displayName="Webkit Transform"
+			default="rotate(-25deg)" />
+	</property>
+	<property name="71.4286%" type="string" displayName="71.4286%">
+		<property name="-webkit-transform" type="string" displayName="Webkit Transform"
+			default="rotate(12.5deg)" />
+	</property>
+	<property name="85.7143%" type="string" displayName="85.7143%">
+		<property name="-webkit-transform" type="string" displayName="Webkit Transform"
+			default="rotate(-12.5deg)" />
+	</property>
+	<property name="100%" type="string" displayName="100%">
+		<property name="-webkit-transform" type="string" displayName="Webkit Transform"
+			default="rotate(0deg)" />
+	</property>
+	<property name="duration" type="string" displayName="Duration"
+		default="3s" />
+</animation>

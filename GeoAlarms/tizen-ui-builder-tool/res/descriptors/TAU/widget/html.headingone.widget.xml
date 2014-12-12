@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget id="html.headingone" displayName="Heading1"
+	smallIcon="headingone_small.png" icon.16="headingone_16.png"
+	category="HTML"
+	description="This widget is a standard HTML widget."
+	helpCategory="Tizen_Html"
+	helpContents=""
+	borderVisible="false"
+	uiSelector="#%id%"
+	xpath="//h1">
+
+	<property name="id"   type="string"            displayName="ID"   default="" category="Common">
+		<condition name="string-id" error="string-id"/>
+	</property>
+	<property name="text" type="string"            displayName="Text" default="" initValue="Heading1" attrXpath="text()"/>
+	<!-- <property name="group-text" type="group-text" displayName="Text Style" default="">
+		<property name="font-family" type="font@family" displayName="Font Family" selector="#%id%"/>
+		<property name="text-align" type="css-text-align" displayName="Text Align" selector="#%id%"/>
+		<property name="font-style" type="css-font-style" displayName="Font Style" selector="#%id%"/>
+		<property name="text-decoration" type="css-text-decoration" displayName="Text Decoration" selector="#%id%"/>
+		<property name="color" type="css-color" displayName="Color" selector="#%id%"/>
+	</property>
+	<property name="size" type="html.heading@size" displayName="Size" default="3">
+		<condition name="disable-property-by-parent" value="tizen.header"/>
+	</property> -->
+	
+	<property name="data-bind" type="text@databinding" displayName="Data Binding" default="" initValue=""/>
+
+	<event name="ontap" displayName="Tap" eventType="event.defaultevent" />
+	<event name="ontaphold" displayName="TapHold" eventType="event.defaultevent" />
+	<event name="onswipe" displayName="Swipe" eventType="event.defaultevent" />
+	<event name="onswipeleft" displayName="SwipeLeft" eventType="event.defaultevent" />
+	<event name="onswiperight" displayName="SwipeRight" eventType="event.defaultevent" />
+
+	<xsl-for-output xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+		<xsl:template match="html.headingone">
+			<h1>
+				<xsl:call-template name="print-part-id"/>
+				<xsl:apply-templates select="@id" mode="simple-property"/>
+				<xsl:value-of select="@text"/>
+			</h1>
+		</xsl:template>
+	</xsl-for-output>
+</widget>

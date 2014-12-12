@@ -1,0 +1,12 @@
+<animation id="tizen.animator.exit.rotateOutUpRight" displayName="rotateOutUpRight" smallIcon="tizen_animator_exit_rotateoutupright.png" icon.16 ="tizen_animator_exit_rotateoutupright.png" category="exit" description="TBD">
+<property name="0%" type="string" displayName="0%">
+<property name="-webkit-transform-origin" type="string" displayName="-webkit-transform-origin" default="right bottom"/>
+<property name="opacity" type="string" displayName="opacity" default="1"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="0deg"/>
+</property>
+<property name="100%" type="string" displayName="100%">
+<property name="-webkit-transform-origin" type="string" displayName="-webkit-transform-origin" default="right bottom"/>
+<property name="opacity" type="string" displayName="opacity" default="0"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="90deg"/>
+</property>
+<property name="duration" type="string" displayName="Duration" default="1s" /></animation>

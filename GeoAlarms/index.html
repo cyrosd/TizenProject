@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="A Tizen Web Application Template">
+        <meta name="viewport" content="width=device-width,user-scalable=no">
+
+    <title></title>
+    
+    <!-- Style sheets -->
+    <link rel="stylesheet" href="./lib/tau/mobile/theme/default/tau.css">
+    
+    <!-- for n-screen -->
+    <link href="./index.managed.css" rel="stylesheet" type="text/css" data-uib="designer=false">
+
+    <!-- Javascripts -->
+    <script src="./tizen-ui-builder-fw/jquery.min.js"></script>
+    <script src="./lib/tau/mobile/js/tau.js" data-build-remove="false"></script>
+    <script src="./tizen-ui-builder-fw/page-system.js"></script>
+    <script src="./index.managed.js"></script>
+    <script data-handling-page="+all" src="./index.js"></script>
+
+ 
+</head>
+
+<body><div data-role="page" id="page1">
+        <div data-role="header" id="header1" data-position="fixed">
+            <h1 id="headingone1">Geo Alarm</h1>
+        </div>
+        <div data-role="content" id="content1" data-scroll="y" data-handler="false">
+            <div data-role="button" id="newAlarm">New Alarm</div>
+        <div data-role="button" id="existingAlarm">Existing Alarm</div>
+        <div data-role="button" id="newFavorite">New Favorite</div>
+        <div data-role="button" id="existingFavorite">Existing Favorite</div>
+        </div>
+    </div>
+
+    <div data-role="page" id="Favorites">
+	<div data-position="fixed" data-role="header" id="header5">
+		<h1 id="headingone5">Favorites</h1>
+	</div>
+	<div data-handler="false" data-role="content" data-scroll="y" id="content5">
+	<div id="alarmsFavorite" style="overflow: hidden;">No Favorites</div>
+	<div data-role="button" id="button7">Button</div>
+	</div>
+</div>
+
+    <div data-role="page" id="page2">
+        <div data-role="header" id="header2" data-position="fixed">
+            <h1 id="headingone2">New Alarm</h1>
+        </div>
+        <div data-role="content" id="content2" data-scroll="y" data-handler="false">
+            <label id="label1">Name</label>
+            <input id="alarmName" type="text">
+            <label id="label2">Place</label>
+            <div id="alarmLat" hidden></div>
+            <div id="alarmLong" style="overflow: hidden;"></div>
+            <div data-role="button" id="map">Map</div>
+            <div data-role="button" id="favorite">Favorite</div>
+            <label id="label3">Comment</label>
+            <textarea id="alarmComment"></textarea>
+            <label id="label4">Distance to alarm</label>
+            <input id="alarmDistance" type="number">
+            <div data-role="button" id="button2">OK</div>
+        </div>
+    </div>
+<div data-role="page" id="NewFavorite">
+	<div data-position="fixed" data-role="header" id="header3">
+		<h1 id="headingone3">New Favorite</h1>
+	</div>
+	<div data-handler="false" data-role="content" data-scroll="y" id="content3">
+	<label id="label5">Name</label>
+	<input id="favoriteName" type="text">
+	<label id="label6">Place</label>
+	<div id="favoriteLat" hidden></div>
+	<div id="favoriteLong" style="overflow: hidden;"></div>
+	<div data-role="button" id="map2">Map</div>
+	<div data-role="button" id="button3">OK</div>
+	</div>
+</div>
+<div data-role="page" id="Map">
+	<div data-position="fixed" data-role="header" id="header6">
+		<h1 id="headingone6">Map</h1>
+	</div>
+    <div data-role="button" id="button1">Back</div>
+</div>
+<div data-role="page" id="MapBis">
+	<div data-position="fixed" data-role="header" id="header4">
+		<h1 id="headingone4">MapBis</h1>
+	</div>
+	<div data-handler="false" data-role="content" data-scroll="y" id="content4">  
+	<div data-role="button" id="button6">Back</div>
+	</div>
+</div>
+<div data-role="page" id="page3">
+	<div data-position="fixed" data-role="header" id="header7">
+		<h1 id="headingone7">Existing Favorite</h1>
+	</div>
+	<div data-handler="false" data-role="content" data-scroll="y" id="content6">
+	<div id="favorites" style="overflow: hidden;">No Favorites</div>
+	<div data-role="button" id="button4">Back</div>
+	</div>
+</div>
+<div data-role="page" id="page4">
+	<div data-position="fixed" data-role="header" id="header8">
+		<h1 id="headingone8">Existing Alarm</h1>
+	</div>
+	<div data-handler="false" data-role="content" data-scroll="y" id="content7">
+	<div id="alarms" style="overflow: hidden;">No Alarms</div>
+	<div data-role="button" id="button5">Back</div>
+	</div>
+</div>
+</body>
+<script src="./tizen-ui-builder-fw/app-entry.js"></script>
+</html>

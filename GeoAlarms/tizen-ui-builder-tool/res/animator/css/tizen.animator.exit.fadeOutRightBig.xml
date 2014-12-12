@@ -1,0 +1,12 @@
+<animation id="tizen.animator.exit.fadeOutRightBig" displayName="fadeOutRightBig" smallIcon="tizen_animator_exit_fadeoutrightbig.png" icon.16 ="tizen_animator_exit_fadeoutrightbig.png" category="exit" description="TBD">
+<property name="0%" type="string" displayName="0%">
+<property name="opacity" type="string" displayName="opacity" default="1"/>
+<property name="translateX" type="string" displayName="translateX" default="0px"/>
+<property name="translateY" type="string" displayName="translateY" default="0px"/>
+</property>
+<property name="100%" type="string" displayName="100%">
+<property name="opacity" type="string" displayName="opacity" default="0"/>
+<property name="translateX" type="string" displayName="translateX" default="2000px"/>
+<property name="translateY" type="string" displayName="translateY" default="0px"/>
+</property>
+<property name="duration" type="string" displayName="Duration" default="1s" /></animation>

@@ -1,0 +1,14 @@
+<animation id="tizen.animator.motionPath.move" displayName="move"
+	smallIcon="tizen_animator_motionpath_move.png" icon.16="tizen_animator_motionpath_move.png"
+	category="motionPath" description="TBD">
+	<property name="0%" type="string" displayName="0%">
+		<property name="translateX" type="string" displayName="Left" default="0px" />
+		<property name="translateY" type="string" displayName="Top" default="0px" />
+	</property>
+	<property name="100%" type="string" displayName="100%">
+		<property name="translateX" type="string" displayName="translateX" default="200px" />
+		<property name="translateY" type="string" displayName="translateY" default="0px" />
+	</property>
+	<property name="duration" type="string" displayName="Duration"
+		default="1s" />
+</animation>

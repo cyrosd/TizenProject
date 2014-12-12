@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style>
+    <category name="layout" displayName="Layout" brief="%position%">
+        <property name="position" type="position@position" displayName="Position" default="" inline="true"></property>
+        <property name="display" type="display@display" displayName="Display" default="" inline="true"></property>
+        <property name="overflow" type="overflow@overflow" displayName="Overflow" default="" inline="true"></property>
+        <property name="visibility" type="visibility@visibility" displayName="Visibility" default="" inline="true"></property>
+        <property name="z-index" type="integer@style" displayName="Z-Index" default="auto" inline="true">
+        	<condition name="integer-min" value="-999999" error="integer-min"/>
+        	<condition name="integer-max" value="999999" error="integer-max"/>
+        </property>
+    </category>
+    <category name="dimension" displayName="Dimension" brief="%left%,%top%,%width%,%height%">
+        <property name="left" type="size" displayName="Left" default="auto" inline="true">      	
+        	<condition name="integer-min" value="-999999" error="integer-min"/>
+        	<condition name="integer-max" value="999999" error="integer-max"/>
+        </property>
+        <property name="top" type="size" displayName="Top" default="auto" inline="true">
+        	<condition name="integer-min" value="-999999" error="integer-min"/>
+        	<condition name="integer-max" value="999999" error="integer-max"/>
+        </property>
+        <property name="width" type="size" displayName="Width" inline="true" default="auto">
+        	<condition name="integer-min" value="0" error="integer-min"/>
+        	<condition name="integer-max" value="999999" error="integer-max"/>
+        </property>
+        <property name="height" type="size" displayName="Height" inline="true" default="auto">
+        	<condition name="integer-min" value="0" error="integer-min"/>
+        	<condition name="integer-max" value="999999" error="integer-max"/>
+        </property>
+    </category>
+
+    <category name="text" displayName="Text" brief="">
+        <property name="text-style" type="group-text" displayName="">
+            <property name="font-family" type="font@family" displayName=""></property>
+            <property name="font-size" type="font@size" displayName="">
+            	<condition name="integer-min" value="0" error="integer-min"/>
+        		<condition name="integer-max" value="999999" error="integer-max"/>
+            </property>
+            <property name="" type="group-icon" displayName="">
+                <property name="font-weight" type="icon@font-weight"></property>
+                <property name="font-style" type="icon@font-style"></property>
+                <property name="text-decoration" type="icon@text-decoration"></property>
+            </property>
+            <property name="text-transform" type="icon@text-transform" displayName=""></property>
+            <property name="color" type="color-fill" displayName=""></property>
+            <property name="text-align" type="icon@text-align" displayName=""></property>
+            <property name="vertical-align" type="icon@vertical-align" displayName=""></property>
+            <property name="letter-spacing" type="text@letter-spacing" displayName="Space"></property>
+            <property name="line-height" type="text@line-height" displayName="Height"></property>
+            <property name="-webkit-text-stroke-color" type="color" displayName="Stroke" inline="true"></property>
+            <property name="-webkit-text-stroke-width" type="size" displayName="Width" inline="true" default="0px"></property>
+            <property name="text-shadow" type="group" displayName="Shadow">
+                <property name="text-shadow.color" type="color" displayName="" default="#000000"></property>
+                <property name="empty" type="empty" inline="true"></property>
+                <property name="text-shadow.x" type="size" displayName="X   " default="0px">                	
+        			<condition name="integer-min" value="-999999" error="integer-min"/>
+        			<condition name="integer-max" value="999999" error="integer-max"/>
+                </property>
+                <property name="text-shadow.y" type="size" displayName="Y   " default="0px">
+                	<condition name="integer-min" value="-999999" error="integer-min"/>
+        			<condition name="integer-max" value="999999" error="integer-max"/>
+                </property>
+                <property name="text-shadow.blur" type="size" displayName="Blur" default="0px">
+                	<condition name="integer-min" value="0" error="integer-min"/>
+                	<condition name="integer-max" value="999999" error="integer-max"/>
+                </property>
+            </property>
+        </property>
+    </category>
+    
+    <category name="transform" displayName="Transform" brief="">
+        <property name="-webkit-transform" type="group-transform" displayName="">
+            <property name="translate" type="group-value" displayName="Translate">
+                <property name="translate.x" type="size" displayName="X" default="0px">
+                	<condition name="integer-min" value="-999999" error="integer-min"/>
+        			<condition name="integer-max" value="999999" error="integer-max"/>
+                </property>
+                <property name="translate.y" type="size" displayName="Y" default="0px">
+                	<condition name="integer-min" value="-999999" error="integer-min"/>
+        			<condition name="integer-max" value="999999" error="integer-max"/>
+                </property>
+            </property>
+            
+            <property name="rotate" type="group-value" displayName="Rotate">
+                <property name="rotate.z" type="size@deg" displayName="Z" default="0deg">
+                	<condition name="integer-min" value="-999999" error="integer-min"/>
+        			<condition name="integer-max" value="999999" error="integer-max"/>
+                </property>
+            </property>
+
+            <property name="scale" type="group-value" displayName="Scale">
+                <property name="scale.x" type="size@real" displayName="X" default="1">
+                	<condition name="integer-min" value="-999" error="integer-min"/>
+                	<condition name="integer-max" value="999" error="integer-max"/>
+                </property>
+                <property name="scale.y" type="size@real" displayName="Y" default="1">
+                	<condition name="integer-min" value="-999" error="integer-min"/>
+                	<condition name="integer-max" value="999" error="integer-max"/>
+                </property>
+            </property>
+            <property name="skew" type="group-value" displayName="Skew">
+                <property name="skew.x" type="size@deg" displayName="X" default="0deg">
+                	<condition name="integer-min" value="-999999" error="integer-min"/>
+                	<condition name="integer-max" value="999999" error="integer-max"/>
+                </property>
+                <property name="skew.y" type="size@deg" displayName="Y" default="0deg">
+                	<condition name="integer-min" value="-999999" error="integer-min"/>
+                	<condition name="integer-max" value="999999" error="integer-max"/>
+                </property>
+            </property>
+        </property> 
+        <property name="-webkit-transform-origin" type="group" displayName="Origin">
+            <property name="-webkit-transform-origin.x" type="size" displayName="X" default="50">
+            	<condition name="integer-min" value="-999999" error="integer-min"/>
+                <condition name="integer-max" value="999999" error="integer-max"/>
+            </property>
+            <property name="-webkit-transform-origin.y" type="size" displayName="Y" default="50">
+            	<condition name="integer-min" value="-999999" error="integer-min"/>
+                <condition name="integer-max" value="999999" error="integer-max"/>
+            </property>
+        </property>     
+    </category>
+    
+    <category name="background" displayName="Background" brief="%background-color%">
+        <property name="background-color" type="color-fill" displayName="Color"></property>
+        <property name="opacity" type="scale@per" displayName="Opacity" default="100">
+            <condition name="integer-min" value="0" error="integer-min"/>
+            <condition name="integer-max" value="100" error="integer-max"/>     
+        </property>
+        <property type="separator"></property>
+        <property name="background-image" type="image" displayName="Image"></property>
+        <property name="background-repeat" type="background@repeat" displayName="Repeat" default="repeat"></property>
+        <property name="background-size" type="group" displayName="Size">
+            <property name="background-size.x" type="size" displayName="X" default="auto">
+            	<condition name="integer-min" value="0" error="integer-min"/>
+                <condition name="integer-max" value="999999" error="integer-max"/>
+            </property>
+            <property name="background-size.y" type="size" displayName="Y" default="auto">
+            	<condition name="integer-min" value="0" error="integer-min"/>
+                <condition name="integer-max" value="999999" error="integer-max"/>
+            </property>
+        </property>
+        <property name="background-position" type="group" displayName="Position">
+            <property name="background-position.x" type="size" displayName="X" default="0">
+            	<condition name="integer-min" value="-999999" error="integer-min"/>
+            	<condition name="integer-max" value="999999" error="integer-max"/>
+            </property>
+            <property name="background-position.y" type="size" displayName="Y" default="0">
+            	<condition name="integer-min" value="-999999" error="integer-min"/>
+            	<condition name="integer-max" value="999999" error="integer-max"/>
+            </property>
+        </property>
+    </category>
+    <category name="border" displayName="Border" brief="%border%" folding="border-top, border-bottom, border-left, border-right">
+        <property name="border" type="group-border" displayName="All">
+            <property name="border.color" type="color" default="#000000"></property>
+            <property name="border.width" type="size" default="0px">
+            	<condition name="integer-min" value="0" error="integer-min"/>
+            	<condition name="integer-max" value="999999" error="integer-max"/>
+            </property>
+            <property name="border.style" type="border@style" default=""></property>
+        </property>
+        <property name="border-top" type="group-border" displayName="Top">
+            <property name="border-top.color" type="color" default="#000000"></property>
+            <property name="border-top.width" type="size" default="0px">
+            	<condition name="integer-min" value="0" error="integer-min"/>
+            	<condition name="integer-max" value="999999" error="integer-max"/>
+            </property>
+            <property name="border-top.style" type="border@style" default=""></property>
+        </property>
+        <property name="border-bottom" type="group-border" displayName="Bottom">
+            <property name="border-bottom.color" type="color" default="#000000"></property>
+            <property name="border-bottom.width" type="size" default="0px">
+            	<condition name="integer-min" value="0" error="integer-min"/>
+            	<condition name="integer-max" value="999999" error="integer-max"/>
+            </property>
+            <property name="border-bottom.style" type="border@style" default="">
+            	<condition name="integer-min" value="0" error="integer-min"/>
+            	<condition name="integer-max" value="999999" error="integer-max"/>
+            </property>
+        </property>
+        <property name="border-left" type="group-border" displayName="Left">
+            <property name="border-left.color" type="color" default="#000000"></property>
+            <property name="border-left.width" type="size" default="0px">
+            	<condition name="integer-min" value="0" error="integer-min"/>
+            	<condition name="integer-max" value="999999" error="integer-max"/>
+            </property>
+            <property name="border-left.style" type="border@style" default=""></property>
+        </property>
+        <property name="border-right" type="group-border" displayName="Right">
+            <property name="border-right.color" type="color" default="#000000"></property>
+            <property name="border-right.width" type="size" default="0px">
+            	<condition name="integer-min" value="0" error="integer-min"/>
+            	<condition name="integer-max" value="999999" error="integer-max"/>
+            </property>
+            <property name="border-right.style" type="border@style" default=""></property>
+        </property>
+        
+    </category>
+
+    <category name="shadow" displayName="Shadow" brief="">
+        <property name="box-shadow" type="group" displayName="">
+            <property name="box-shadow.color" type="color" displayName="Color" default="#000000"></property>
+            <property name="empty" type="empty" inline="true"></property>
+            <property name="box-shadow.horizontal" type="size" displayName="Horz" default="0px">
+            	<condition name="integer-min" value="-999999" error="integer-min"/>
+            	<condition name="integer-max" value="999999" error="integer-max"/>
+            </property>
+            <property name="box-shadow.vertical" type="size" displayName="Vert" default="0px">
+            	<condition name="integer-min" value="-999999" error="integer-min"/>
+            	<condition name="integer-max" value="999999" error="integer-max"/>
+            </property>
+            <property name="box-shadow.blur" type="size" displayName="Blur" default="0px">
+            	<condition name="integer-min" value="0" error="integer-min"/>
+            	<condition name="integer-max" value="999999" error="integer-max"/>
+            </property>
+            <property name="box-shadow.spread" type="size" displayName="Spread" default="0px">
+            	<condition name="integer-min" value="0" error="integer-min"/>
+            	<condition name="integer-max" value="999999" error="integer-max"/>
+            </property>
+        </property>
+    </category>
+    <category name="metrics" displayName="Metrics" brief="">
+        <property name="metrics" type="metrics"  displayName="" default=""></property>
+    </category>
+<!--  
+    <category name="filter" displayName="Filters" brief="">
+        <property name="-webkit-filter" type="group-filter" displayName="">
+            <property name="blur" type="group-value" displayName="Blur">
+                <property name="blur" type="scale@px" displayName="" default="0px"> 
+                    <condition name="integer-min" value="0" error="integer-min"/>
+                    <condition name="integer-max" value="10" error="integer-max"/>
+                </property>         
+            </property>
+            <property name="contrast" type="group-value" displayName="Contrast">
+                <property name="contrast" type="scale@per" displayName="" default="100%">
+                    <condition name="integer-min" value="0" error="integer-min"/>
+                    <condition name="integer-max" value="100" error="integer-max"/>
+                </property>
+            </property>
+            <property name="grayscale" type="group-value" displayName="Grayscale">
+                <property name="grayscale" type="scale@per" displayName="" default="0%">
+                    <condition name="integer-min" value="0" error="integer-min"/>
+                    <condition name="integer-max" value="100" error="integer-max"/>
+                </property>
+            </property>
+            <property name="hue-rotate" type="group-value" displayName="Hue-Rotate">
+                <property name="hue-rotate" type="scale@deg" displayName="" default="0deg">
+                    <condition name="integer-min" value="0" error="integer-min"/>
+                    <condition name="integer-max" value="360" error="integer-max"/>
+                </property>
+            </property>
+            <property name="invert" type="group-value" displayName="Invert">
+                <property name="invert" type="scale@per" displayName="" default="0%">
+                    <condition name="integer-min" value="0" error="integer-min"/>
+                    <condition name="integer-max" value="100" error="integer-max"/>
+                </property>
+            </property>
+            <property name="saturate" type="group-value" displayName="Saturate">
+                <property name="saturate" type="scale@per" displayName="" default="100%">
+                    <condition name="integer-min" value="0" error="integer-min"/>
+                    <condition name="integer-max" value="100" error="integer-max"/>
+                </property>
+            </property>
+            <property name="sepia" type="group-value" displayName="Sepia">
+                <property name="sepia" type="scale@per" displayName="" default="0%">
+                    <condition name="integer-min" value="0" error="integer-min"/>
+                    <condition name="integer-max" value="100" error="integer-max"/>
+                </property>
+            </property>
+            <property name="drop-shadow" type="group-value" displayName="Shadow">
+                <property name="drop-shadow.color" type="color" displayName=""></property>
+                <property name="drop-shadow.blur" type="size" displayName="Blur" default="0px"></property>
+                <property name="drop-shadow.x" type="size" displayName="X" default="0px"></property>
+                <property name="drop-shadow.y" type="size" displayName="Y" default="0px"></property>
+            </property>
+        </property>
+    </category>
+-->
+    <category name="clip" displayName="Clip" brief="">
+        <property name="clip" type="clip"    displayName="" default=""></property>
+    </category>
+    <!-- 
+    <category name="custom" displayName="Custom CSS" brief="">
+        <property name="custom-css" type="custom-css"/>
+    </category>
+     -->
+</style>

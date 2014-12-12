@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget id="tizen.selectmenuitemgroup" displayName="Select Menu Item Group"
+	smallIcon="selectmenuitemgroup_small.png" icon.16="selectmenuitemgroup_16.png"
+	category="Form Elements"
+	description="This widget can be used only in the select menu widget."
+	helpCategory="Tizen_Widget"
+	helpContents=""
+	uiSelector="#%id%"
+	xpath="//optgroup">
+
+	<relations>
+		<parent ids="tizen.selectmenu"/>
+		<content ids="tizen.selectmenuitem"/>
+	</relations>
+
+	<property name="id"    type="string" displayName="ID"    default="" category="Common">
+		<condition name="string-id" error="string-id"/>
+	</property>
+	<property name="label" type="string" displayName="Label" default="" initValue="Option Group"/>
+
+	<xsl-for-output xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+		<xsl:template match="tizen.selectmenuitemgroup">
+			<optgroup>
+				<xsl:call-template name="print-part-id"/>
+				<xsl:apply-templates select="@*" mode="simple-property"/>
+				<xsl:apply-templates select="*"/>
+				<!-- 
+				<xsl:apply-templates select="tizen.selectmenuitem"/>
+				 -->
+			</optgroup>
+		</xsl:template>
+	</xsl-for-output>
+</widget>

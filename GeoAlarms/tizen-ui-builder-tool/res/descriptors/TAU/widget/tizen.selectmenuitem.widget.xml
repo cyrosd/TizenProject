@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget id="tizen.selectmenuitem" displayName="Select Menu Item"
+	smallIcon="selectmenuitem_small.png" icon.16="selectmenuitem_16.png"
+	category="Form Elements"
+	description="This widget can be used only in the select menu and select menu item group widget."
+	helpCategory="Tizen_Widget"
+	helpContents=""
+	uiSelector="#%id%"
+	xpath="//option[string-length(parent::node()/@data-role)=0]">
+
+	<relations>
+		<parent ids="tizen.selectmenu,tizen.selectmenuitemgroup"/>
+	</relations>
+
+	<property name="id"    type="string" displayName="ID"    default="" category="Common">
+		<condition name="string-id" error="string-id"/>
+	</property>
+	<property name="text"  type="string" displayName="Text"  default="" initValue="Option" attrXpath="text()"/>
+	<property name="value" type="string" displayName="Value" default=""/>
+
+	<xsl-for-output xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+		<xsl:template match="tizen.selectmenuitem">
+			<option>
+				<xsl:call-template name="print-part-id"/>
+				<xsl:apply-templates select="@*[name() != 'text']" mode="simple-property"/>
+				<xsl:value-of select="@text"/>
+			</option>
+		</xsl:template>
+	</xsl-for-output>
+</widget>

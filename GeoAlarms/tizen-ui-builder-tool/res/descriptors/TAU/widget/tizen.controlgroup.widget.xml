@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget id="tizen.controlgroup" displayName="Controlgroup"
+	smallIcon="controlgroup_small.png" icon.16="controlgroup_16.png"
+	category="Buttons"
+	description="The controlgroup widget is used to group a set of buttons."
+	helpCategory="Tizen_Widget"
+	helpContents=""
+	feedbackHeight="42" borderVisible="true"
+	guideText="Drop a Button"
+	uiSelector="#%id%"
+	xpath="//div[@data-role='controlgroup']">
+
+	<relations>
+		<content ids="tizen.button"/>
+	</relations>
+
+	<property name="id"        type="string"                  displayName="ID"   default="" category="Common">
+		<condition name="string-id" error="string-id"/>
+	</property>
+	<property name="data-type" type="tizen.controlgroup@type" displayName="Type" default=""/>
+
+	<xsl-for-output xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+		<xsl:template match="tizen.controlgroup">
+			<div data-role="controlgroup">
+				<xsl:call-template name="print-part-id"/>
+				<xsl:apply-templates select="@*" mode="simple-property"/>
+				<xsl:apply-templates select="html.text"/>
+				<xsl:apply-templates select="*"/>
+				<!-- 
+				<xsl:apply-templates select="tizen.button"/>
+				 -->
+			</div>
+		</xsl:template>
+	</xsl-for-output>
+</widget>

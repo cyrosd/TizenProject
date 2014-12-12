@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget id="tizen.headermultilinetext" displayName="Multiline Text"
+	smallIcon="headermultilinetext_small.png" icon.16="headermultilinetext_16.png"
+	category="Toolbars"
+	description="This widget can be used only in the header widget."
+	helpCategory="Tizen_Widget"
+	helpContents=""
+	borderVisible="false"
+	uiSelector="#%id%"
+	xpath="//span[@class='ui-title-text-sub']">
+
+	<relations>
+		<parent ids="tizen.header" />
+	</relations>
+
+	<property name="id"   type="string" displayName="ID"             default="" category="Common">
+		<condition name="string-id" error="string-id"/>
+	</property>
+	<property name="text" type="string" displayName="Multiline Text" default="" initValue="Multiline Text" attrXpath="text()"/>
+
+	<event name="ontap" displayName="Tap" eventType="event.defaultevent" />
+	<event name="ontaphold" displayName="TapHold" eventType="event.defaultevent" />
+	<event name="onswipe" displayName="Swipe" eventType="event.defaultevent" />
+	<event name="onswipeleft" displayName="SwipeLeft" eventType="event.defaultevent" />
+	<event name="onswiperight" displayName="SwipeRight" eventType="event.defaultevent" />
+
+	<xsl-for-output xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+		<xsl:template match="tizen.headermultilinetext">
+			<span class="ui-title-text-sub">
+				<xsl:call-template name="print-part-id"/>
+				<xsl:apply-templates select="@id" mode="simple-property"/>
+				<xsl:value-of select="@text"/>
+			</span>
+		</xsl:template>
+	</xsl-for-output>
+</widget>

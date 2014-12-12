@@ -1,0 +1,18 @@
+<animation id="tizen.animator.demo.move" displayName="move"
+	smallIcon="tizen_animator_move_small.png" icon.16="tizen_animator_move_16.png"
+	category="demo" description="TBD">
+	<property name="0%" type="string" displayName="0%">
+		<property name="left" type="string" displayName="Left"
+			default="0px" />
+		<property name="top" type="string" displayName="Top" default="0px" />
+	</property>
+
+	<property name="100%" type="string" displayName="100%">
+		<property name="left" type="string" displayName="Left"
+			default="200px" />
+		<property name="top" type="string" displayName="Top" default="0px" />
+	</property>
+
+	<property name="duration" type="string" displayName="Duration"
+		default="1s" />
+</animation>

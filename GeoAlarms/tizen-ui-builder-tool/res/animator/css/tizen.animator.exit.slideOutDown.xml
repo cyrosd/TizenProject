@@ -1,0 +1,17 @@
+<animation id="tizen.animator.exit.slideOutDown" displayName="slideOutDown" smallIcon="tizen_animator_exit_slideOutDown_small.png" icon.16 ="tizen_animator_exit_slideOutDown_16.png" category="exit" description="TBD">
+<property name="0%" type="string" displayName="0%">
+<property name="opacity" type="string" displayName="opacity" default="1"/>
+</property>
+<property name="50%" type="string" displayName="50%">
+<property name="opacity" type="string" displayName="opacity" default="1"/>
+</property>
+<property name="100%" type="string" displayName="100%">
+<property name="opacity" type="string" displayName="opacity" default="1"/>
+</property>
+<property name="25%" type="string" displayName="25%">
+<property name="opacity" type="string" displayName="opacity" default="0"/>
+</property>
+<property name="75%" type="string" displayName="75%">
+<property name="opacity" type="string" displayName="opacity" default="0"/>
+</property>
+<property name="duration" type="string" displayName="Duration" default="1s" /></animation>

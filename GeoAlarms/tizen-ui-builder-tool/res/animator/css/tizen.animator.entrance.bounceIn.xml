@@ -1,0 +1,18 @@
+<animation id="tizen.animator.entrance.bounceIn" displayName="bounceIn" smallIcon="tizen_animator_entrance_bouncein.png" icon.16 ="tizen_animator_entrance_bouncein.png" category="entrance" description="TBD">
+<property name="0%" type="string" displayName="0%">
+<property name="opacity" type="string" displayName="opacity" default="0"/>
+<property name="scaleX" type="string" displayName="scaleX" default="0.3"/>
+</property>
+<property name="50%" type="string" displayName="50%">
+<property name="opacity" type="string" displayName="opacity" default="1"/>
+<property name="scaleX" type="string" displayName="scaleX" default="1.05"/>
+</property>
+<property name="70%" type="string" displayName="70%">
+<property name="opacity" type="string" displayName="opacity" default="1"/>
+<property name="scaleX" type="string" displayName="scaleX" default="0.9"/>
+</property>
+<property name="100%" type="string" displayName="100%">
+<property name="opacity" type="string" displayName="opacity" default="1"/>
+<property name="scaleX" type="string" displayName="scaleX" default="1"/>
+</property>
+<property name="duration" type="string" displayName="Duration" default="1s" /></animation>

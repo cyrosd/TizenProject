@@ -1,0 +1,8 @@
+<animation id="tizen.animator.exit.fadeOut" displayName="fadeOut" smallIcon="tizen_animator_exit_fadeout.png" icon.16 ="tizen_animator_exit_fadeout.png" category="exit" description="TBD">
+<property name="0%" type="string" displayName="0%">
+<property name="opacity" type="string" displayName="opacity" default="1"/>
+</property>
+<property name="100%" type="string" displayName="100%">
+<property name="opacity" type="string" displayName="opacity" default="0"/>
+</property>
+<property name="duration" type="string" displayName="Duration" default="1s" /></animation>

@@ -1,0 +1,20 @@
+<animation id="tizen.animator.emphasis.flashOut" displayName="flashOut" smallIcon="tizen_animator_emphasis_flash.png" icon.16 ="tizen_animator_emphasis_flash.png" category="emphasis" description="TBD">
+<property name="0%" type="string" displayName="0%">
+<property name="opacity" type="string" displayName="opacity" default="1"/>
+</property>
+<property name="20%" type="string" displayName="25%">
+<property name="opacity" type="string" displayName="opacity" default="0"/>
+</property>
+<property name="40%" type="string" displayName="50%">
+<property name="opacity" type="string" displayName="opacity" default="1"/>
+</property>
+<property name="60%" type="string" displayName="75%">
+<property name="opacity" type="string" displayName="opacity" default="0"/>
+</property>
+<property name="80%" type="string" displayName="100%">
+<property name="opacity" type="string" displayName="opacity" default="1"/>
+</property>
+<property name="100%" type="string" displayName="100%">
+<property name="opacity" type="string" displayName="opacity" default="0"/>
+</property>
+<property name="duration" type="string" displayName="Duration" default="1s" /></animation>

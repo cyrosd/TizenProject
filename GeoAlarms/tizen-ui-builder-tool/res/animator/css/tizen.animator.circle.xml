@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animation id="tizen.animator.circle" displayName="Circle" smallIcon="tizen_animator_appear_small.png" 
+		icon.16 ="tizen_animator_appear_16.png" category="Motion" description="TBD">
+	
+	<property name="0%" type="string" displayName="0%">
+		<property name="left" type="string" displayName="Left" default="0px"/>
+		<property name="top" type="string" displayName="Top" default="0px"/>
+	</property>
+	
+	<property name="2.7%" type="string" displayName="2.7%">
+		<property name="left" type="string" displayName="Left" default="172px"/>
+		<property name="top" type="string" displayName="Top" default="25px"/>
+	</property>
+	
+	<property name="5.5%" type="string" displayName="5.5%">
+		<property name="left" type="string" displayName="Left" default="202px"/>
+		<property name="top" type="string" displayName="Top" default="13px"/>
+	</property>
+	
+	<property name="8.3%" type="string" displayName="8.3%">
+		<property name="left" type="string" displayName="Left" default="240px"/>
+		<property name="top" type="string" displayName="Top" default="6px"/>
+	</property>
+	
+	<property name="11.1%" type="string" displayName="11.1%">
+		<property name="left" type="string" displayName="Left" default="280px"/>
+		<property name="top" type="string" displayName="Top" default="4px"/>
+	</property>
+	
+	<property name="13.8%" type="string" displayName="13.8%">
+		<property name="left" type="string" displayName="Left" default="321px"/>
+		<property name="top" type="string" displayName="Top" default="3px"/>
+	</property>
+	
+	<property name="16.6%" type="string" displayName="16.6%">
+		<property name="left" type="string" displayName="Left" default="361px"/>
+		<property name="top" type="string" displayName="Top" default="7px"/>
+	</property>
+		
+	<property name="19.4%" type="string" displayName="19.4%">
+		<property name="left" type="string" displayName="Left" default="398px"/>
+		<property name="top" type="string" displayName="Top" default="14px"/>
+	</property>
+	
+	<property name="22.2%" type="string" displayName="22.2%">
+		<property name="left" type="string" displayName="Left" default="428px"/>
+		<property name="top" type="string" displayName="Top" default="25px"/>
+	</property>
+	
+	<property name="25%" type="string" displayName="25%">
+		<property name="left" type="string" displayName="Left" default="450px"/>
+		<property name="top" type="string" displayName="Top" default="40px"/>
+	</property>
+	
+	<property name="27.7%" type="string" displayName="27.7%">
+		<property name="left" type="string" displayName="Left" default="466px"/>
+		<property name="top" type="string" displayName="Top" default="62px"/>
+	</property>
+	
+	<property name="30.5%" type="string" displayName="30.5%">
+		<property name="left" type="string" displayName="Left" default="476px"/>
+		<property name="top" type="string" displayName="Top" default="93px"/>
+	</property>
+	
+	<property name="33.3%" type="string" displayName="33.3%">
+		<property name="left" type="string" displayName="Left" default="483px"/>
+		<property name="top" type="string" displayName="Top" default="130px"/>
+	</property>
+	
+	<property name="36.1%" type="string" displayName="36.1%">
+		<property name="left" type="string" displayName="Left" default="487px"/>
+		<property name="top" type="string" displayName="Top" default="170px"/>
+	</property>
+	
+	<property name="38.8%" type="string" displayName="38.8%">
+		<property name="left" type="string" displayName="Left" default="487px"/>
+		<property name="top" type="string" displayName="Top" default="211px"/>
+	</property>
+	
+	<property name="41.6%" type="string" displayName="41.6%">
+		<property name="left" type="string" displayName="Left" default="483px"/>
+		<property name="top" type="string" displayName="Top" default="251px"/>
+	</property>
+		
+	<property name="44.4%" type="string" displayName="44.4%">
+		<property name="left" type="string" displayName="Left" default="477px"/>
+		<property name="top" type="string" displayName="Top" default="286px"/>
+	</property>
+	
+	<property name="47.2%" type="string" displayName="47.2%">
+		<property name="left" type="string" displayName="Left" default="465px"/>
+		<property name="top" type="string" displayName="Top" default="317px"/>
+	</property>
+	
+	<property name="50%" type="string" displayName="50%">
+		<property name="left" type="string" displayName="Left" default="450px"/>
+		<property name="top" type="string" displayName="Top" default="340px"/>
+	</property>
+	
+	<property name="52.7%" type="string" displayName="52.7%">
+		<property name="left" type="string" displayName="Left" default="427px"/>
+		<property name="top" type="string" displayName="Top" default="353px"/>
+	</property>
+	
+	<property name="55.5%" type="string" displayName="55.5%">
+		<property name="left" type="string" displayName="Left" default="399px"/>
+		<property name="top" type="string" displayName="Top" default="365px"/>
+	</property>
+	
+	<property name="58.3%" type="string" displayName="58.3%">
+		<property name="left" type="string" displayName="Left" default="362px"/>
+		<property name="top" type="string" displayName="Top" default="374px"/>
+	</property>
+	
+	<property name="61.1%" type="string" displayName="61.1%">
+		<property name="left" type="string" displayName="Left" default="280px"/>
+		<property name="top" type="string" displayName="Top" default="376px"/>
+	</property>
+	
+	<property name="63.8%" type="string" displayName="63.8%">
+		<property name="left" type="string" displayName="Left" default="280px"/>
+		<property name="top" type="string" displayName="Top" default="376px"/>
+	</property>
+	
+	<property name="66.6%" type="string" displayName="66.6%">
+		<property name="left" type="string" displayName="Left" default="240px"/>
+		<property name="top" type="string" displayName="Top" default="374px"/>
+	</property>
+	
+	<property name="69.4%" type="string" displayName="69.4%">
+		<property name="left" type="string" displayName="Left" default="203px"/>
+		<property name="top" type="string" displayName="Top" default="365px"/>
+	</property>
+	
+	<property name="72.2%" type="string" displayName="72.2%">
+		<property name="left" type="string" displayName="Left" default="172px"/>
+		<property name="top" type="string" displayName="Top" default="354px"/>
+	</property>
+	
+	<property name="75%" type="string" displayName="75%">
+		<property name="left" type="string" displayName="Left" default="172px"/>
+		<property name="top" type="string" displayName="Top" default="354px"/>
+	</property>
+	
+	<property name="77.7%" type="string" displayName="77.7%">
+		<property name="left" type="string" displayName="Left" default="135px"/>
+		<property name="top" type="string" displayName="Top" default="317px"/>
+	</property>
+	
+	<property name="80.5" type="string" displayName="80.5%">
+		<property name="left" type="string" displayName="Left" default="125px"/>
+		<property name="top" type="string" displayName="Top" default="286px"/>
+	</property>
+	
+	<property name="83.3%" type="string" displayName="83.3%">
+		<property name="left" type="string" displayName="Left" default="118px"/>
+		<property name="top" type="string" displayName="Top" default="251px"/>
+	</property>
+	
+	<property name="86.1%" type="string" displayName="86.1%">
+		<property name="left" type="string" displayName="Left" default="113px"/>
+		<property name="top" type="string" displayName="Top" default="210px"/>
+	</property>
+	
+	<property name="88.8%" type="string" displayName="88.8%">
+		<property name="left" type="string" displayName="Left" default="113px"/>
+		<property name="top" type="string" displayName="Top" default="170px"/>
+	</property>
+	
+	<property name="91.6%" type="string" displayName="91.6%">
+		<property name="left" type="string" displayName="Left" default="117px"/>
+		<property name="top" type="string" displayName="Top" default="129px"/>
+	</property>
+	
+	<property name="94.4%" type="string" displayName="94.4%">
+		<property name="left" type="string" displayName="Left" default="125px"/>
+		<property name="top" type="string" displayName="Top" default="92px"/>
+	</property>
+	
+	<property name="97.2%" type="string" displayName="97.2%">
+		<property name="left" type="string" displayName="Left" default="134px"/>
+		<property name="top" type="string" displayName="Top" default="62px"/>
+	</property>
+	
+	<property name="100%" type="string" displayName="100%">
+		<property name="left" type="string" displayName="Left" default="150px"/>
+		<property name="top" type="string" displayName="Top" default="40px"/>
+	</property>
+	
+	
+	<property name="duration" type="string" displayName="Duration" default="4s"/>
+	
+</animation>

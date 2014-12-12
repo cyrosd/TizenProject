@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<types>
+	<type id="tizen@boolean1">
+		<constant value="" displayName="(None:True)" />
+		<constant value="true" displayName="True" />
+		<constant value="false" displayName="False" />
+	</type>
+
+	<type id="tizen@boolean2">
+		<constant value="" displayName="(None:False)" />
+		<constant value="true" displayName="True" />
+		<constant value="false" displayName="False" />
+	</type>
+
+	<type id="tizen@boolean3">
+		<constant value="" displayName="(None)" />
+		<constant value="true" displayName="True" />
+		<constant value="false" displayName="False" />
+	</type>
+
+	<type id="tizen@checked">
+		<constant value="" displayName="(None)" />
+		<constant value="checked" displayName="Checked" />
+	</type>
+
+	<type id="tizen@disabled">
+		<constant value="" displayName="(None)" />
+		<constant value="disabled" displayName="Disabled" />
+	</type>
+
+	<type id="tizen@icon-down">
+		<constant value="" displayName="(None:Down arrow)" />
+		<constant value="arrow-l" displayName="Left arrow" />
+		<constant value="arrow-r" displayName="Right arrow" />
+		<constant value="arrow-u" displayName="Up arrow" />
+		<constant value="arrow-d" displayName="Down arrow" />
+		<constant value="delete" displayName="Delete" />
+		<constant value="plus" displayName="Plus" />
+		<constant value="minus" displayName="Minus" />
+		<constant value="check" displayName="Check" />
+		<constant value="gear" displayName="Gear" />
+		<constant value="refresh" displayName="Refresh" />
+		<constant value="forward" displayName="Forward" />
+		<constant value="back" displayName="Back" />
+		<constant value="grid" displayName="Grid" />
+		<constant value="star" displayName="Star" />
+		<constant value="alert" displayName="Alert" />
+		<constant value="info" displayName="Info" />
+		<constant value="home" displayName="Home" />
+		<constant value="search" displayName="Search" />
+	</type>
+
+	<type id="tizen@icon-up">
+		<constant value="" displayName="(None:Up arrow)" />
+		<constant value="arrow-l" displayName="Left arrow" />
+		<constant value="arrow-r" displayName="Right arrow" />
+		<constant value="arrow-u" displayName="Up arrow" />
+		<constant value="arrow-d" displayName="Down arrow" />
+		<constant value="delete" displayName="Delete" />
+		<constant value="plus" displayName="Plus" />
+		<constant value="minus" displayName="Minus" />
+		<constant value="check" displayName="Check" />
+		<constant value="gear" displayName="Gear" />
+		<constant value="refresh" displayName="Refresh" />
+		<constant value="forward" displayName="Forward" />
+		<constant value="back" displayName="Back" />
+		<constant value="grid" displayName="Grid" />
+		<constant value="star" displayName="Star" />
+		<constant value="alert" displayName="Alert" />
+		<constant value="info" displayName="Info" />
+		<constant value="home" displayName="Home" />
+		<constant value="search" displayName="Search" />
+	</type>
+
+	<type id="tizen@iconpos">
+		<constant value="" displayName="(None:Left)" />
+		<constant value="left" displayName="Left" />
+		<constant value="right" displayName="Right" />
+		<constant value="top" displayName="Top" />
+		<constant value="bottom" displayName="Bottom" />
+		<!-- <constant value="notext" displayName="Notext" /> -->
+	</type>
+
+	<type id="tizen@iconpos-right">
+		<constant value="" displayName="(None:Right)" />
+		<constant value="left" displayName="Left" />
+		<constant value="right" displayName="Right" />
+		<constant value="top" displayName="Top" />
+		<constant value="bottom" displayName="Bottom" />
+	</type>
+
+	<type id="tizen@position">
+		<constant value="" displayName="(None)" />
+		<constant value="fixed" displayName="Fixed" />
+	</type>
+
+	<type id="tizen@theme">
+		<constant value="" displayName="Default" />
+		<constant value="a" displayName="A (default:Black)" />
+		<constant value="b" displayName="B (default:Blue)" />
+		<constant value="c" displayName="C (default:Gray)" />
+		<constant value="d" displayName="D (default:Light Gray)" />
+		<constant value="e" displayName="E (default:Yellow)" />
+		<constant value="f" displayName="F (extra)" />
+		<constant value="g" displayName="G (extra)" />
+		<constant value="h" displayName="H (extra)" />
+	</type>
+
+	<type id="tizen.audio@type">
+		<constant value="audio/mp4" displayName="Mp4" />
+		<constant value="audio/ogg" displayName="Ogg" />
+		<constant value="audio/mpeg" displayName="Mpeg" />
+	</type>
+
+	<type id="tizen.button@icon">
+		<constant value="" displayName="(None)" />
+		<constant value="arrow-l" displayName="Left arrow" />
+		<constant value="arrow-r" displayName="Right arrow" />
+		<constant value="arrow-u" displayName="Up arrow" />
+		<constant value="arrow-d" displayName="Down arrow" />
+		<constant value="delete" displayName="Delete" />
+		<constant value="plus" displayName="Plus" />
+		<constant value="minus" displayName="Minus" />
+		<constant value="check" displayName="Check" />
+		<constant value="gear" displayName="Gear" />
+		<constant value="refresh" displayName="Refresh" />
+		<constant value="forward" displayName="Forward" />
+		<constant value="back" displayName="Back" />
+		<constant value="grid" displayName="Grid" />
+		<constant value="star" displayName="Star"/>
+		<constant value="alert" displayName="Alert" />
+		<constant value="info" displayName="Info" />
+		<constant value="home" displayName="Home" />
+		<constant value="search" displayName="Search" />
+		<constant value="call" displayName="Call" />
+		<constant value="rename" displayName="Rename" />
+	</type>
+
+	<type id="tizen.button@style">
+		<constant value="" displayName="(None:Box)" />
+		<constant value="round" displayName="Round" />
+	</type>
+
+	<type id="tizen.starbutton@style">
+		<constant value="" displayName="(None:Box)" />
+		<constant value="circle" displayName="Circle" />
+		<constant value="nobg" displayName="No Background" />
+	</type>
+
+	<type id="tizen.checkboxitem@class">
+		<constant value="" displayName="(None)" />
+		<constant value="favorite" displayName="Favorite" />
+	</type>
+
+	<type id="tizen.contextpopup@class">
+		<constant value="horizontal" displayName="Horizontal" />
+		<constant value="button" displayName="Button" />
+	</type>
+
+	<type id="tizen.controlgroup@type">
+		<constant value="" displayName="(None:Vertical)" />
+		<constant value="vertical" displayName="Vertical" />
+		<constant value="horizontal" displayName="Horizontal" />
+	</type>
+
+	<type id="tizen.datetimepicker@type">
+		<constant value="datetime" displayName="Datetime" />
+		<constant value="date" displayName="Date" />
+		<constant value="time" displayName="Time" />
+	</type>
+
+	<!-- <type id="tizen.datetimepicker@dateformat">
+		<constant value="" displayName="(None)" />
+		<constant value="MM/dd/yyyy" displayName="MM/dd/yyyy" />
+		<constant value="yyyy/MM/dd" displayName="yyyy/MM/dd" />
+		<constant value="yy/MM/dd" displayName="yy/MM/dd" />
+		<constant value="M/dd" displayName="M/dd" />
+		<constant value="M/dd/yy" displayName="M/dd/yy" />
+		<constant value="MM/dd/yy" displayName="MM/dd/yy" />
+		<constant value="dd-MMM" displayName="dd-MMM" />
+		<constant value="dd-MMM-yy" displayName="dd-MMM-yy" />
+		<constant value="MMM-yy" displayName="MMM-yy" />
+		<constant value="MMMM-yy" displayName="MMMM-yy" />
+	</type>
+
+	<type id="tizen.datetimepicker@timeformat">
+		<constant value="" displayName="(None)" />
+		<constant value="HH:mm" displayName="HH:mm" />
+		<constant value="HH:mm:ss" displayName="HH:mm:ss" />
+		<constant value="tt hh:mm" displayName="tt hh:mm" />
+		<constant value="tt hh:mm:ss" displayName="tt hh:mm:ss" />
+		<constant value="hh:mm tt" displayName="hh:mm tt" />
+		<constant value="hh:mm:ss tt" displayName="hh:mm:ss tt" />
+	</type> -->
+
+	<type id="tizen.datetimepicker@format">
+		<constant value="" displayName="(None)" />
+		<constant value="MM/dd/yyyy" displayName="MM/dd/yyyy" />
+		<constant value="HH:mm:ss" displayName="HH:mm:ss" />
+		<constant value="MM/dd/yyyy HH:mm:ss" displayName="MM/dd/yyyy HH:mm:ss" />
+		<constant value="yyyy/MM/dd" displayName="yyyy/MM/dd" />
+		<constant value="tt hh:mm" displayName="tt hh:mm" />
+		<constant value="yyyy/MM/dd tt hh:mm" displayName="yyyy/MM/dd tt hh:mm" />
+	</type>
+
+	<type id="tizen.datetimepicker@value">
+		<constant value="" displayName="(None:System Date)" />
+		<constant value="2000/01/01 23:00:00" displayName="2000/01/01 23:00:00" />
+		<constant value="2013/01/01 01:00:00" displayName="2013/01/01 01:00:00" />
+	</type>
+
+	<type id="tizen.fliptoggleswitch@selected">
+		<constant value="" displayName="(None:Off)" />
+		<constant value="selected" displayName="On" />
+	</type>
+
+	<type id="tizen.formcontrol@method">
+		<constant value="GET" />
+		<constant value="POST" />
+	</type>
+
+	<!-- <type id="tizen.image@unit">
+		<constant value="px" />
+		<constant value="%" />
+	</type>
+
+	<type id="tizen.image@text-align">
+		<constant value="left" displayName="Left" />
+		<constant value="center" displayName="Center" />
+		<constant value="right" displayName="Right" />
+	</type>
+
+	<type id="tizen.image@display">
+		<constant value="block" displayName="Block" />
+		<constant value="inline" displayName="Inline" />
+	</type> -->
+
+	<type id="tizen.gallery@align">
+		<constant value="top" displayName="Top" />
+		<constant value="middle" displayName="Middle" />
+		<constant value="bottom" displayName="Bottom" />
+	</type>
+
+	<!-- <type id="tizen.listbutton@iconpos">
+		<constant value="" displayName="(None:Left)" />
+		<constant value="left" displayName="Left" />
+		<constant value="right" displayName="Right" />
+	</type> -->
+
+	<type id="tizen.listdivider@style">
+		<constant value="normal" displayName="Normal" />
+		<constant value="check" displayName="Check" />
+		<constant value="dialogue" displayName="Dialogue" />
+	</type>
+
+	<type id="tizen.listitem@class">
+		<constant value="" displayName="(None)" />
+		<constant value="ui-li-has-multiline" displayName="ui-li-has-multiline" />
+		<constant value="ui-li-thumbnail-right" displayName="ui-li-thumbnail-right" />
+		<constant value="ui-li-dialogue" displayName="ui-li-dialogue" />
+		<!-- <constant value="ui-li-has-multiline ui-li-thumbnail-right" displayName="ui-li-has-multiline ui-li-thumbnail-right" />
+		<constant value="ui-li-has-multiline ui-li-dialogue" displayName="ui-li-has-multiline ui-li-dialogue" />
+		<constant value="ui-li-thumbnail-right ui-li-dialogue" displayName="ui-li-thumbnail-right ui-li-dialogue" />
+		<constant value="ui-li-has-multiline ui-li-thumbnail-right ui-li-dialogue" displayName="ui-li-has-multiline ui-li-thumbnail-right ui-li-dialogue" /> -->
+	</type>
+
+	<type id="tizen.listitemsubtextone@icon">
+		<constant value="" displayName="(None)" />
+		<constant value="before" displayName="Before Text" />
+		<constant value="after" displayName="After Text" />
+	</type>
+
+	<type id="tizen.notification@type">
+		<constant value="ticker" displayName="Ticker" />
+		<constant value="popup" displayName="Popup" />
+	</type>
+
+	<type id="tizen.popup@style">
+		<constant value="center_info" displayName="Center Info" />
+		<constant value="center_title" displayName="Center Title" />
+		<constant value="center_basic_1btn" displayName="Center Basic 1btn" />
+		<constant value="center_basic_2btn" displayName="Center Basic 2btn" />
+		<constant value="center_basic_3btn" displayName="Center Basic 3btn" />
+		<constant value="center_title_1btn" displayName="Center Title 1btn" />
+		<constant value="center_title_2btn" displayName="Center Title 2btn" />
+		<constant value="center_title_3btn" displayName="Center Title 3btn" />
+		<constant value="center_button_vertical" displayName="Center Button Vertical" />
+		<constant value="center_checkbox" displayName="Center Checkbox" />
+		<constant value="center_liststyle_1btn" displayName="Center Liststyle 1btn" />
+		<constant value="center_liststyle_2btn" displayName="Cnter Liststyle 2btn" />
+		<constant value="center_liststyle_3btn" displayName="Center Liststyle 3btn" />
+	</type>
+
+	<type id="tizen.progress@style">
+		<constant value="pending" displayName="Pending" />
+		<constant value="circle" displayName="Circle" />
+	</type>
+
+	<type id="tizen.searchfilterbar@icon">
+		<constant value="" displayName="(None)" />
+		<constant value="call" displayName="Call" />
+	</type>
+
+	<type id="tizen.slider@icon">
+		<constant value="" displayName="(None)" />
+		<constant value="bright" displayName="Bright" />
+		<constant value="volume" displayName="Volume" />
+		<constant value="text" displayName="Text" />
+	</type>
+
+	<type id="tizen.tabbaritem@class">
+		<constant value="" displayName="(None)" />
+		<constant value="ui-btn-active" displayName="Active" />
+	</type>
+
+	<type id="tizen.video@type">
+		<constant value="video/mp4" displayName="Mp4" />
+		<constant value="video/ogg" displayName="Ogg" />
+		<constant value="video/webm" displayName="Webm" />
+	</type>
+
+	<type id="tizen.virtualgrid@direction">
+		<constant value="x" displayName="X" />
+		<constant value="y" displayName="Y" />
+	</type>
+
+	<type id="html.heading@size">
+		<constant value="1" />
+		<constant value="2" />
+		<constant value="3" />
+		<constant value="4" />
+		<constant value="5" />
+		<constant value="6" />
+	</type>
+
+	<type id="html.input@type">
+		<constant value="password" displayName="Password" />
+		<constant value="text" displayName="Text" />
+		<!-- HTML5 input types -->
+		<constant value="datetime-local" displayName="Datetime Local" />
+		<constant value="email" displayName="Email" />
+		<constant value="month" displayName="Month" />
+		<constant value="number" displayName="Number" />
+		<constant value="tel" displayName="Tel" />
+		<constant value="url" displayName="Url" />
+		<constant value="week" displayName="Week" />
+		<!-- <constant value="color" displayName="Color" /> -->
+	</type>
+
+	<type id="html.link@direction">
+		<constant value="" displayName="(None)" />
+		<constant value="reverse" displayName="Reverse" />
+	</type>
+
+	<type id="html.link@prefetch">
+		<constant value="" displayName="(None)" />
+		<constant value="data-prefetch" displayName="Prefetch" />
+	</type>
+
+	<type id="html.link@rel">
+		<constant value="" displayName="(None)" />
+		<constant value="back" displayName="Back" />
+		<constant value="dialog" displayName="Dialog" />
+		<constant value="external" displayName="External" />
+	</type>
+
+	<type id="html.link@transition">
+		<constant value="" displayName="(None)" />
+		<constant value="slidefade" displayName="Slidefade" />
+		<constant value="slide" displayName="Slide" />
+		<constant value="slideup" displayName="Slideup" />
+		<constant value="slidedown" displayName="Slidedown" />
+		<constant value="fade" displayName="Fade" />
+		<constant value="pop" displayName="Pop" />
+		<constant value="flip" displayName="Flip" />
+		<constant value="turn" displayName="Turn" />
+		<constant value="flow" displayName="Flow" />
+	</type>
+	
+	<type id="html@dir">
+		<constant value="ltr" displayName="Ltr" />
+		<constant value="rtl" displayName="Rtl" />
+		<constant value="auto" displayName="Auto" />
+	</type>
+
+	<type id="html@dropzone">
+		<constant value="copy" displayName="Copy" />
+		<constant value="move" displayName="Move" />
+		<constant value="link" displayName="Link" />
+	</type>
+
+	<type id="html@draggable">
+		<constant value="true" displayName="True" />
+		<constant value="false" displayName="False" />
+		<constant value="auto" displayName="Auto" />
+	</type>
+
+	<type id="html@lang">
+		<constant value="ab" displayName="Abkhazian" />
+		<constant value="aa" displayName="Afar" />
+		<constant value="af" displayName="Afrikaans" />
+		<constant value="sq" displayName="Albanian" />
+		<constant value="am" displayName="Amharic" />
+		<constant value="ar" displayName="Arabic" />
+		<constant value="an" displayName="Aragonese" />
+		<constant value="hy" displayName="Armenian" />
+		<constant value="as" displayName="Assamese" />
+		<constant value="ay" displayName="Aymara" />
+		<constant value="az" displayName="Azerbaijani" />
+		<constant value="ba" displayName="Bashkir" />
+		<constant value="eu" displayName="Basque" />
+		<constant value="bn" displayName="Bengali (Bangla)" />
+		<constant value="dz" displayName="Bhutani" />
+		<constant value="bh" displayName="Bihari" />
+		<constant value="bi" displayName="Bislama" />
+		<constant value="br" displayName="Breton" />
+		<constant value="bg" displayName="Bulgarian" />
+		<constant value="my" displayName="Burmese" />
+		<constant value="be" displayName="Byelorussian (Belarusian)" />
+		<constant value="km" displayName="Cambodian" />
+		<constant value="ca" displayName="Catalan" />
+		<constant value="" displayName="Cherokee" />
+		<constant value="" displayName="Chewa" />
+		<constant value="zh" displayName="Chinese (Simplified)" />
+		<constant value="zh" displayName="Chinese (Traditional)" />
+		<constant value="co" displayName="Corsican" />
+		<constant value="hr" displayName="Croatian" />
+		<constant value="cs" displayName="Czech" />
+		<constant value="da" displayName="Danish" />
+		<constant value="" displayName="Divehi" />
+		<constant value="nl" displayName="Dutch" />
+		<constant value="" displayName="Edo" />
+		<constant value="en" displayName="English" />
+		<constant value="eo" displayName="Esperanto" />
+		<constant value="et" displayName="Estonian" />
+		<constant value="fo" displayName="Faeroese" />
+		<constant value="fa" displayName="Farsi" />
+		<constant value="fj" displayName="Fiji" />
+		<constant value="fi" displayName="Finnish" />
+		<constant value="" displayName="Flemish" />
+		<constant value="fr" displayName="French" />
+		<constant value="fy" displayName="Frisian" />
+		<constant value="" displayName="Fulfulde" />
+		<constant value="gl" displayName="Galician" />
+		<constant value="gd" displayName="Gaelic (Scottish)" />
+		<constant value="gv" displayName="Gaelic (Manx)" />
+		<constant value="ka" displayName="Georgian" />
+		<constant value="de" displayName="German" />
+		<constant value="el" displayName="Greek" />
+		<constant value="kl" displayName="Greenlandic" />
+		<constant value="gn" displayName="Guarani" />
+		<constant value="gu" displayName="Gujarati" />
+		<constant value="ht" displayName="Haitian Creole" />
+		<constant value="ha" displayName="Hausa" />
+		<constant value="" displayName="Hawaiian" />
+		<constant value="he, iw" displayName="Hebrew" />
+		<constant value="hi" displayName="Hindi" />
+		<constant value="hu" displayName="Hungarian" />
+		<constant value="" displayName="Ibibio" />
+		<constant value="is" displayName="Icelandic" />
+		<constant value="io" displayName="Ido" />
+		<constant value="" displayName="Igbo" />
+		<constant value="id, in" displayName="Indonesian" />
+		<constant value="ia" displayName="Interlingua" />
+		<constant value="ie" displayName="Interlingue" />
+		<constant value="iu" displayName="Inuktitut" />
+		<constant value="ik" displayName="Inupiak" />
+		<constant value="ga" displayName="Irish" />
+		<constant value="it" displayName="Italian" />
+		<constant value="ja" displayName="Japanese" />
+		<constant value="jv" displayName="Javanese" />
+		<constant value="kn" displayName="Kannada" />
+		<constant value="" displayName="Kanuri" />
+		<constant value="ks" displayName="Kashmiri" />
+		<constant value="kk" displayName="Kazakh" />
+		<constant value="rw" displayName="Kinyarwanda (Ruanda)" />
+		<constant value="ky" displayName="Kirghiz" />
+		<constant value="rn" displayName="Kirundi (Rundi)" />
+		<constant value="" displayName="Konkani" />
+		<constant value="ko" displayName="Korean" />
+		<constant value="ku" displayName="Kurdish" />
+		<constant value="lo" displayName="Laothian" />
+		<constant value="la" displayName="Latin" />
+		<constant value="lv" displayName="Latvian (Lettish)" />
+		<constant value="li" displayName="Limburgish ( Limburger)" />
+		<constant value="ln" displayName="Lingala" />
+		<constant value="lt" displayName="Lithuanian" />
+		<constant value="mk" displayName="Macedonian" />
+		<constant value="mg" displayName="Malagasy" />
+		<constant value="ms" displayName="Malay" />
+		<constant value="ml" displayName="Malayalam" />
+		<constant value="mt" displayName="Maltese" />
+		<constant value="mi" displayName="Maori" />
+		<constant value="mr" displayName="Marathi" />
+		<constant value="mo" displayName="Moldavian" />
+		<constant value="mn" displayName="Mongolian" />
+		<constant value="na" displayName="Nauru" />
+		<constant value="ne" displayName="Nepali" />
+		<constant value="no" displayName="Norwegian" />
+		<constant value="oc" displayName="Occitan" />
+		<constant value="or" displayName="Oriya" />
+		<constant value="om" displayName="Oromo (Afaan Oromo)" />
+		<constant value="" displayName="Papiamentu" />
+		<constant value="ps" displayName="Pashto (Pushto)" />
+		<constant value="pl" displayName="Polish" />
+		<constant value="pt" displayName="Portuguese" />
+		<constant value="pa" displayName="Punjabi" />
+		<constant value="qu" displayName="Quechua" />
+		<constant value="rm" displayName="Rhaeto-Romance" />
+		<constant value="ro" displayName="Romanian" />
+		<constant value="ru" displayName="Russian" />
+		<constant value="" displayName="Sami (Lappish)" />
+		<constant value="sm" displayName="Samoan" />
+		<constant value="sg" displayName="Sangro" />
+		<constant value="sa" displayName="Sanskrit" />
+		<constant value="sr" displayName="Serbian" />
+		<constant value="sh" displayName="Serbo-Croatian" />
+		<constant value="st" displayName="Sesotho" />
+		<constant value="tn" displayName="Setswana" />
+		<constant value="sn" displayName="Shona" />
+		<constant value="ii" displayName="Sichuan Yi" />
+		<constant value="sd" displayName="Sindhi" />
+		<constant value="si" displayName="Sinhalese" />
+		<constant value="ss" displayName="Siswati" />
+		<constant value="sk" displayName="Slovak" />
+		<constant value="sl" displayName="Slovenian" />
+		<constant value="so" displayName="Somali" />
+		<constant value="es" displayName="Spanish" />
+		<constant value="su" displayName="Sundanese" />
+		<constant value="sw" displayName="Swahili (Kiswahili)" />
+		<constant value="sv" displayName="Swedish" />
+		<constant value="" displayName="Syriac" />
+		<constant value="tl" displayName="Tagalog" />
+		<constant value="tg" displayName="Tajik" />
+		<constant value="" displayName="Tamazight" />
+		<constant value="ta" displayName="Tamil" />
+		<constant value="tt" displayName="Tatar" />
+		<constant value="te" displayName="Telugu" />
+		<constant value="th" displayName="Thai" />
+		<constant value="bo" displayName="Tibetan" />
+		<constant value="ti" displayName="Tigrinya" />
+		<constant value="to" displayName="Tonga" />
+		<constant value="ts" displayName="Tsonga" />
+		<constant value="tr" displayName="Turkish" />
+		<constant value="tk" displayName="Turkmen" />
+		<constant value="tw" displayName="Twi" />
+		<constant value="ug" displayName="Uighur" />
+		<constant value="uk" displayName="Ukrainian" />
+		<constant value="ur" displayName="Urdu" />
+		<constant value="uz" displayName="Uzbek" />
+		<constant value="" displayName="Venda" />
+		<constant value="vi" displayName="Vietnamese" />
+		<constant value="vo" displayName="Volapük" />
+		<constant value="wa" displayName="Wallon" />
+		<constant value="cy" displayName="Welsh" />
+		<constant value="wo" displayName="Wolof" />
+		<constant value="xh" displayName="Xhosa" />
+		<constant value="" displayName="Yi" />
+		<constant value="yi, ji" displayName="Yiddish" />
+		<constant value="yo" displayName="Yoruba" />
+	</type>
+
+	<type id="font@family">
+		<constant value="" displayName="(None)" />
+		<constant value="Georgia" displayName="Georgia" />
+		<!--  
+		<constant value="Palatino Linotype" 	displayName="Palatino Linotype" />
+		<constant value="Book Antiqua" 			displayName="Book Antiqua" />
+		-->
+		<constant value="Times New Roman" displayName="Times New Roman" />
+		<constant value="Arial" displayName="Arial" />
+		<constant value="Helvetica" displayName="Helvetica" />
+		<constant value="Arial Black" displayName="Arial Black" />
+		<!--
+		<constant value="Impact" displayName="Impact" />
+		<constant value="Lucida Sans Unicode" displayName="Lucida Sans Unicode" />
+		<constant value="Tahoma" displayName="Tahoma" />
+		<constant value="Verdana" displayName="Verdana" />
+		-->
+		<constant value="Courier New" displayName="Courier New" />
+		<!-- 
+		<constant value="Lucida Console" displayName="Lucida Console" />
+		 -->
+	</type>
+
+	<type id="font@size">
+		<constant value="" displayName="(None)"/>
+		<constant value="medium" displayName="medium"/>
+		<constant value="xx-small" displayName="xx-small"/>
+		<constant value="x-small" displayName="x-small"/>
+		<constant value="small" displayName="small"/>
+		<constant value="large" displayName="large"/>
+		<constant value="x-large" displayName="x-large"/>
+		<constant value="xx-large" displayName="xx-large"/>
+		<constant value="smaller" displayName="smaller"/>
+		<constant value="larger" displayName="larger"/>
+		<constant value="initial" displayName="initial"/>
+		<constant value="inherit" displayName="inherit"/>
+		<unit value="px" displayName="px"/>
+		<unit value="%" displayName="%"/>
+		<unit value="em" displayName="em"/>
+		<unit value="cm" displayName="cm"/>
+	</type>
+
+	<type id="border@style">
+		<constant value="" displayName="(None)" />
+		<constant value="none" displayName="none" />
+		<constant value="hidden" displayName="hidden" />
+		<constant value="dotted" displayName="dotted" />
+		<constant value="dashed" displayName="dashed" />
+		<constant value="solid" displayName="solid" />
+		<constant value="double" displayName="double" />
+		<constant value="groove" displayName="groove" />
+		<constant value="ridge" displayName="ridge" />
+		<constant value="inset" displayName="inset" />
+		<constant value="outset" displayName="outset" />
+	</type>
+
+<!-- 
+	<type id="style@size">
+		<constant value="" displayName="(None)" />
+		<constant value="6" displayName="6" />
+		<constant value="8" displayName="8" />
+		<constant value="9" displayName="9" />
+		<constant value="10" displayName="10" />
+		<constant value="11" displayName="11" />
+		<constant value="12" displayName="12" />
+		<constant value="14" displayName="14" />
+		<constant value="16" displayName="16" />
+		<constant value="18" displayName="18" />
+		<constant value="20" displayName="20" />
+		<constant value="22" displayName="22" />
+		<constant value="24" displayName="24" />
+		<constant value="26" displayName="26" />
+		<constant value="28" displayName="28" />
+		<constant value="36" displayName="36" />
+		<constant value="48" displayName="48" />
+		<constant value="72" displayName="72" />
+	</type>
+-->
+	<type id="position@position">
+		<constant value="" displayName="(None)" />
+		<constant value="absolute" displayName="absolute" />
+		<constant value="relative" displayName="relative" />
+		<constant value="static" displayName="static" />
+		<constant value="fixed" displayName="fixed" />
+	</type>
+	<type id="display@display">
+	   <constant value="" displayName="(None)"/>
+	   <constant value="none" displayName="none"/>
+	   <constant value="inline" displayName="inline"/>
+	   <constant value="block" displayName="block"/>
+	   <constant value="flex" displayName="flex"/>
+	   <constant value="inline-block" displayName="inline-block"/>
+	   <constant value="inline-flex" displayName="inline-flex"/>
+	   <constant value="inline-table" displayName="inline-table"/>
+	   <constant value="list-item" displayName="list-item"/>
+	   <constant value="run-in" displayName="run-in"/>
+	   <constant value="table" displayName="table"/>
+	   <constant value="table-caption" displayName="table-caption"/>
+	   <constant value="table-column-group" displayName="table-column-group"/>
+	   <constant value="table-header-group" displayName="table-header-group"/>
+	   <constant value="table-footer-group" displayName="table-footer-group"/>
+	   <constant value="table-row-group" displayName="table-row-group"/>
+	   <constant value="table-cell" displayName="table-cell"/>
+	   <constant value="table-column" displayName="table-column"/>
+	   <constant value="table-row" displayName="table-row"/>
+	   <constant value="initial" displayName="initial"/>
+       <constant value="inherit" displayName="inherit"/>
+	</type>
+	<type id="overflow@overflow">
+	   <constant value="" displayName="(None)"/>
+	   <constant value="visible" displayName="visible"/>
+	   <constant value="hidden" displayName="hidden"/>
+	   <constant value="scroll" displayName="scroll"/>
+	   <constant value="auto" displayName="auto"/>
+	   <constant value="initial" displayName="initial"/>
+	   <constant value="inherit" displayName="inherit"/>
+	</type>
+	<type id="visibility@visibility">
+	   <constant value="" displayName="(None)"/>
+	   <constant value="visible" displayName="visible"/>
+	   <constant value="hidden" displayName="hidden"/>
+	   <constant value="collapse" displayName="collapse"/>
+	   <constant value="initial" displayName="initial"/>
+	   <constant value="inherit" displayName="inherit"/>
+	</type>
+
+	<type id="background@repeat">
+		<constant value=""                  displayName="(None)" />
+		<constant value="repeat" 			displayName="repeat" />
+		<constant value="repeat-x" 			displayName="repeat-x" />
+		<constant value="repeat-y" 			displayName="repeat-y" />
+		<constant value="no-repeat" 		displayName="no-repeat" />
+	</type>
+
+	<type id="icon@text-align">
+		<constant value="left" 		displayName="left" icon="style_left_align.png"/>
+		<constant value="center" 	displayName="center" icon="style_center_align.png"/>
+		<constant value="right" 	displayName="right" icon="style_right_align.png"/>
+		<constant value="justify" 	displayName="justify" icon="style_justify.png"/>
+	</type>
+
+	<type id ="icon@vertical-align">
+		<constant value="top" 		displayName="top" icon="style_vertical_align_top.png"/>
+		<constant value="middle" 	displayName="middle" icon="style_vertical_align-middle.png"/>
+		<constant value="bottom" 	displayName="bottom" icon="style_vertical_align_bottom.png"/>
+	</type>
+
+	<type id="icon@text-vertical-align">
+		<constant value="" displayName="(None)" />
+		<constant value="baseline" displayName="baseline" />
+		<constant value="sub" displayName="sub" />
+		<constant value="super" displayName="super" />
+		<constant value="top" displayName="top" />
+		<constant value="text-top" displayName="text-top" />
+		<constant value="middle" displayName="middle" />
+		<constant value="bottom" displayName="bottom" />
+		<constant value="text-bottom" displayName="text-bottom" />
+	</type>
+
+	<type id="icon@text-decoration">
+		<constant value="underline" displayName="underline" icon="style_under_line.png" />
+		<!-- <constant value="overline" displayName="overline" icon="style_cancel_line.png"/> -->
+		<constant value="line-through" displayName="line-through" icon="style_cancel_line.png" />
+	</type>
+
+	<type id="icon@font-style">
+		<constant value="italic" displayName="italic" icon="style_italic.png" />
+	</type>
+
+	<type id="icon@font-weight">
+		<constant value="bold" displayName="bold" icon="style_bold.png" />
+	</type>
+
+	<type id="icon@text-transform">
+		<constant value="capitalize" displayName="capitalize" icon="style_capitalize.png" />
+		<constant value="uppercase" displayName="uppercase" icon="style_uppercase.png" />
+		<constant value="lowercase" displayName="lowercase" icon="style_lowercase.png" />
+	</type>
+
+	<type id="text@letter-spacing">
+		<constant value="normal" displayName="normal" />
+		<constant value="1px" displayName="1px" />
+		<constant value="2px" displayName="2px" />
+		<constant value="3px" displayName="3px" />
+		<constant value="5px" displayName="5px" />
+		<constant value="10px" displayName="10px" />
+		<constant value="20px" displayName="20px" />
+	</type>
+
+	<type id="text@line-height">
+		<constant value="normal" displayName="normal" />
+		<constant value="1" displayName="1" />
+		<constant value="2" displayName="2" />
+		<constant value="3" displayName="3" />
+		<constant value="4" displayName="4" />
+	</type>
+
+	<type id="icon@font-variant">
+		<constant value="small-caps" displayName="small-caps" />
+	</type>
+
+	<type id="size@per">
+		<unit value="%" displayName="%" />
+	</type>
+
+	<type id="size@real">
+	</type>
+	
+	<type id="size">
+		<constant value="auto" displayName="auto"/>
+		<constant value="initial" displayName="initial"/>
+		<constant value="inherit" displayName="inherit"/>
+		<unit value="px" displayName="px"/>
+		<unit value="%" displayName="%"/>
+		<unit value="em" displayName="em"/>
+		<unit value="cm" displayName="cm"/>
+	</type>
+
+	<type id="size@px">
+		<unit value="px" displayName="px" />
+	</type>
+
+	<type id="size@deg">
+		<unit value="deg" displayName="deg" />
+	</type>
+
+	<type id="text@word-wrap">
+		<constant value="" displayName="(None)" />
+		<constant value="normal" displayName="normal" />
+		<constant value="break-word" displayName="break-word" />
+	</type>
+
+	<type id="scale@px">
+		<unit value="px" displayName="px" />
+	</type>
+
+	<type id="scale@per">
+		<unit value="%" displayName="%" />
+	</type>
+
+	<type id="scale@deg">
+		<unit value="deg" displayName="deg" />
+	</type>
+
+	<type id="text@databinding">
+		<constant value="text" displayName=""/>
+	</type>
+
+	<type id="value@databinding">
+		<constant value="value" displayName=""/>
+	</type>
+
+	<type id="foreach@databinding">
+		<constant value="foreach" displayName=""/>
+	</type>
+
+	<type id="slider@databinding">
+		<constant value="slider" displayName=""/>
+	</type>
+
+	<type id="textchecked@databinding">
+		<constant value="text" displayName=""/>
+		<constant value="checked" displayName=""/>
+	</type>
+
+	<type id="foreachtext@databinding">
+		<constant value="foreach" displayName=""/>
+		<constant value="text" displayName=""/>
+	</type>
+
+	<type id="valuetext@databinding">
+		<constant value="value" displayName=""/>
+		<constant value="text" displayName=""/>
+	</type>
+
+	<type id="attrsrc@databinding">
+		<constant value="attr" displayName="src"/>
+	</type>
+
+	<type id="attrtext@databinding">
+		<constant value="text" displayName=""/>
+		<constant value="attr" displayName="for"/>
+		<constant value="attr" displayName="form"/>
+	</type>
+
+	<type id="attrhref@databinding">
+		<constant value="text" displayName=""/>
+		<constant value="attr" displayName="href"/>
+	</type>
+	
+	<type id="integer@style">
+	   <constant value="auto" displayName="auto"/>
+	   <constant value="initial" displayName="initial"/>
+	   <constant value="inherit" displayName="inherit"/>
+	</type>
+</types>

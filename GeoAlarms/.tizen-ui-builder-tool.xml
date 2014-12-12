@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tizenFile>
+    <fileInfo>
+        <type>tizen-ui-builder-tool</type>
+        <version>0.0.1</version>
+        <desc>Tizen Web UI Builder Tool Info</desc>
+    </fileInfo>
+    <tizenToolVersion>
+        <webUIBuilder>2.0</webUIBuilder>
+        <platform>mobile-2.3</platform>
+    </tizenToolVersion>
+    <tizenToolPath>
+        <descriptor>res/descriptors/TAU</descriptor>
+        <descriptorIcons>res/icons</descriptorIcons>
+        <buildXslt>res/xslt</buildXslt>
+    </tizenToolPath>
+</tizenFile>

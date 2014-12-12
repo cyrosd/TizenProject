@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget id="tizen.collapsible" displayName="Collapsible"
+	smallIcon="collapsible_small.png" icon.16="collapsible_16.png"
+	category="Content"
+	description="The collapsible widget is used to create a collapsible block of content."
+	helpCategory="Tizen_Widget"
+	helpContents="Collapsible"
+	uiSelector="#%id%"
+	xpath="//div[@data-role='collapsible']">
+
+	<relations>
+		<content type="widget"/>
+		<nocontent ids="tizen.header,tizen.footer,tizen.tabbar,tizen.searchfilterbar"/>
+	</relations>
+
+	<property name="id"             type="string" displayName="ID"   default="" category="Common">
+		<condition name="string-id" error="string-id"/>
+	</property>
+	<!-- <property name="text"           type="string" displayName="Text" default="" initValue="Collapsible"/> -->
+	<property name="data-collapsed" type="tizen@boolean1" displayName="Collapsed"     default="">
+		<condition name="change-other-property-by-parent" value="false" target="tizen.collapsibleset" targetValue=""/>
+	</property>
+	<property name="data-collapsed-icon" type="tizen@icon-down"     displayName="Collapsed Icon" default=""/>
+	<property name="data-expanded-icon"  type="tizen@icon-up"       displayName="Expanded Icon"  default=""/>
+	<property name="data-iconpos"        type="tizen@iconpos-right" displayName="Icon Position"  default=""/>
+	<!-- <property name="data-coners"         type="tizen@boolean1"      displayName="Coners"         default=""/> -->
+	<property name="data-inset"          type="tizen@boolean2"      displayName="Inset"          default="">
+		<condition name="disable-property-by-parent" value="tizen.collapsibleset"/>
+	</property>
+
+	<event name="ontaphold" displayName="TapHold" eventType="event.defaultevent" />
+	<event name="onswipe" displayName="Swipe" eventType="event.defaultevent" />
+	<event name="onswipeleft" displayName="SwipeLeft" eventType="event.defaultevent" />
+	<event name="onswiperight" displayName="SwipeRight" eventType="event.defaultevent" />
+	<event name="oncollapse" displayName="Collapse" eventType="event.defaultevent" />
+	<event name="onexpand" displayName="Expand" eventType="event.defaultevent" />
+
+	<xsl-for-output xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+		<xsl:template match="tizen.collapsible">
+			<div data-role="collapsible">
+				<xsl:call-template name="print-part-id"/>
+				<xsl:apply-templates select="@*[name() != 'text']" mode="simple-property"/>
+				<!-- <xsl:if test="@text[string-length(.) > 0]">
+					<h3>
+						<xsl:value-of select="@text"/>
+					</h3>
+				</xsl:if> -->
+				<xsl:apply-templates select="*"/>
+				<!-- 
+				<xsl:apply-templates select="*[name() != 'tizen.header' and name() != 'tizen.footer' and name() != 'tizen.tabbar' and name() != 'tizen.searchfilterbar']"/>
+				 -->
+			</div>
+		</xsl:template>
+	</xsl-for-output>
+</widget>

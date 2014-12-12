@@ -1,0 +1,37 @@
+<animation id="tizen.animator.emphasis.wobble" displayName="wobble" smallIcon="tizen_animator_emphasis_wobble.png" icon.16 ="tizen_animator_emphasis_wobble.png" category="emphasis" description="TBD">
+<property name="0%" type="string" displayName="0%">
+<property name="translateX" type="string" displayName="translateX" default="0%"/>
+<property name="translateY" type="string" displayName="translateY" default="0%"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="0deg"/>
+</property>
+<property name="15%" type="string" displayName="15%">
+<property name="translateX" type="string" displayName="translateX" default="-25%"/>
+<property name="translateY" type="string" displayName="translateY" default="0%"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="-5deg"/>
+</property>
+<property name="30%" type="string" displayName="30%">
+<property name="translateX" type="string" displayName="translateX" default="20%"/>
+<property name="translateY" type="string" displayName="translateY" default="0%"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="3deg"/>
+</property>
+<property name="45%" type="string" displayName="45%">
+<property name="translateX" type="string" displayName="translateX" default="-15%"/>
+<property name="translateY" type="string" displayName="translateY" default="0%"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="-3deg"/>
+</property>
+<property name="60%" type="string" displayName="60%">
+<property name="translateX" type="string" displayName="translateX" default="10%"/>
+<property name="translateY" type="string" displayName="translateY" default="0%"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="2deg"/>
+</property>
+<property name="75%" type="string" displayName="75%">
+<property name="translateX" type="string" displayName="translateX" default="-5%"/>
+<property name="translateY" type="string" displayName="translateY" default="0%"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="-1deg"/>
+</property>
+<property name="100%" type="string" displayName="100%">
+<property name="translateX" type="string" displayName="translateX" default="0%"/>
+<property name="translateY" type="string" displayName="translateY" default="0%"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="0deg"/>
+</property>
+<property name="duration" type="string" displayName="Duration" default="1s" /></animation>

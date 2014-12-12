@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget id="tizen.tabbar" displayName="Tabbar"
+	smallIcon="tabbar_small.png" icon.16="tabbar_16.png"
+	category="Toolbars"
+	description="The tabbar widget supports the grouped button style in the header."
+	helpCategory="Tizen_Widget"
+	helpContents=""
+	feedbackHeight="15" borderVisible="true"
+	guideText="Drop a Tabbar Item"
+	uiSelector="#%id%"
+	xpath="//div[@data-role='tabbar']" 
+	childXpath="//div[@data-role='tabbar']/ul"
+	selfChildXpath = "./ul">
+
+	<relations>
+		<parent ids="tizen.header" />
+		<content ids="tizen.tabbaritem" max="4"/>
+	</relations>
+
+	<property name="id" type="string" displayName="ID" default="" category="Common">
+		<condition name="string-id" error="string-id" />
+	</property>
+	<property name="data-auto-change" type="tizen@boolean1" displayName="AutoChange" default="" initValue="false"></property>
+
+	<xsl-for-output xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+		<xsl:template match="tizen.tabbar">
+			<div data-role="tabbar">
+				<xsl:call-template name="print-part-id"/>
+				<xsl:apply-templates select="@*" mode="simple-property"/>
+				<xsl:apply-templates select="html.text"/>
+				<ul>
+					<!-- 
+					<xsl:apply-templates select="tizen.tabbaritem"/>
+					 -->
+					<xsl:apply-templates select="*"/>
+				</ul>
+			</div>
+		</xsl:template>
+	</xsl-for-output>
+</widget>

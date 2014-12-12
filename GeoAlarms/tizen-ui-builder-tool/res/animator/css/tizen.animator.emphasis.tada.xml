@@ -1,0 +1,46 @@
+<animation id="tizen.animator.emphasis.tada" displayName="tada" smallIcon="tizen_animator_emphasis_tada.png" icon.16 ="tizen_animator_emphasis_tada.png" category="emphasis" description="TBD">
+<property name="0%" type="string" displayName="0%">
+<property name="scaleX" type="string" displayName="scaleX" default="1"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="0deg"/>
+</property>
+<property name="10%" type="string" displayName="10%">
+<property name="scaleX" type="string" displayName="scaleX" default="0.9"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="-3deg"/>
+</property>
+<property name="20%" type="string" displayName="20%">
+<property name="scaleX" type="string" displayName="scaleX" default="0.9"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="-3deg"/>
+</property>
+<property name="30%" type="string" displayName="30%">
+<property name="scaleX" type="string" displayName="scaleX" default="1.1"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="3deg"/>
+</property>
+<property name="50%" type="string" displayName="50%">
+<property name="scaleX" type="string" displayName="scaleX" default="1.1"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="3deg"/>
+</property>
+<property name="70%" type="string" displayName="70%">
+<property name="scaleX" type="string" displayName="scaleX" default="1.1"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="3deg"/>
+</property>
+<property name="90%" type="string" displayName="90%">
+<property name="scaleX" type="string" displayName="scaleX" default="1.1"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="3deg"/>
+</property>
+<property name="40%" type="string" displayName="40%">
+<property name="scaleX" type="string" displayName="scaleX" default="1.1"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="-3deg"/>
+</property>
+<property name="60%" type="string" displayName="60%">
+<property name="scaleX" type="string" displayName="scaleX" default="1.1"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="-3deg"/>
+</property>
+<property name="80%" type="string" displayName="80%">
+<property name="scaleX" type="string" displayName="scaleX" default="1.1"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="-3deg"/>
+</property>
+<property name="100%" type="string" displayName="100%">
+<property name="scaleX" type="string" displayName="scaleX" default="1"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="0deg"/>
+</property>
+<property name="duration" type="string" displayName="Duration" default="1s" /></animation>

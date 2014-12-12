@@ -1,0 +1,37 @@
+<animation id="tizen.animator.emphasis.flip" displayName="flip" smallIcon="tizen_animator_emphasis_flip.png" icon.16 ="tizen_animator_emphasis_flip.png" category="emphasis" description="TBD">
+<property name="0%" type="string" displayName="0%">
+<property name="-webkit-animation-timing-function" type="string" displayName="-webkit-animation-timing-function" default="ease-out"/>
+<property name="perspective" type="string" displayName="perspective" default="400px"/>
+<property name="translateZ" type="string" displayName="translateZ" default="0"/>
+<property name="rotateY" type="string" displayName="rotateY" default="0"/>
+<property name="scale" type="string" displayName="scale" default="1"/>
+</property>
+<property name="40%" type="string" displayName="40%">
+<property name="-webkit-animation-timing-function" type="string" displayName="-webkit-animation-timing-function" default="ease-out"/>
+<property name="perspective" type="string" displayName="perspective" default="400px"/>
+<property name="translateZ" type="string" displayName="translateZ" default="150px"/>
+<property name="rotateY" type="string" displayName="rotateY" default="170deg"/>
+<property name="scale" type="string" displayName="scale" default="1"/>
+</property>
+<property name="50%" type="string" displayName="50%">
+<property name="-webkit-animation-timing-function" type="string" displayName="-webkit-animation-timing-function" default="ease-in"/>
+<property name="perspective" type="string" displayName="perspective" default="400px"/>
+<property name="translateZ" type="string" displayName="translateZ" default="150px"/>
+<property name="rotateY" type="string" displayName="rotateY" default="190deg"/>
+<property name="scale" type="string" displayName="scale" default="1"/>
+</property>
+<property name="80%" type="string" displayName="80%">
+<property name="-webkit-animation-timing-function" type="string" displayName="-webkit-animation-timing-function" default="ease-in"/>
+<property name="perspective" type="string" displayName="perspective" default="400px"/>
+<property name="translateZ" type="string" displayName="translateZ" default="0"/>
+<property name="rotateY" type="string" displayName="rotateY" default="360deg"/>
+<property name="scale" type="string" displayName="scale" default=".95"/>
+</property>
+<property name="100%" type="string" displayName="100%">
+<property name="-webkit-animation-timing-function" type="string" displayName="-webkit-animation-timing-function" default="ease-in"/>
+<property name="perspective" type="string" displayName="perspective" default="400px"/>
+<property name="translateZ" type="string" displayName="translateZ" default="0"/>
+<property name="rotateY" type="string" displayName="rotateY" default="360deg"/>
+<property name="scale" type="string" displayName="scale" default="1"/>
+</property>
+<property name="duration" type="string" displayName="Duration" default="1s" /></animation>

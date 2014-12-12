@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animation id="tizen.animator.rotate" displayName="Rotate" smallIcon="tizen_animator_rotate_small.png" 
+		icon.16 ="tizen_animator_rotate_16.png" category="Effect" description="TBD">
+	
+	<property name="0%" type="string" displayName="0%">
+		<!-- <property name="-webkit-transform" type="string" displayName="Webkit Transform" default="rotate(0deg)"/> -->
+		<property name="rotate" type="string" displayName="Rotate" default="0deg"/>
+	</property>
+	<property name="100%" type="string" displayName="100%">
+		<!-- <property name="-webkit-transform" type="string" displayName="Webkit Transform" default="rotate(360deg)"/> -->
+		<property name="rotate" type="string" displayName="Rotate" default="360deg"/>
+	</property>
+	<property name="duration" type="string" displayName="Duration" default="3s"/>
+	
+</animation>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><tizenFile>
+<fileInfo>
+<type>tizen-app</type>
+<version>2</version>
+<desc>Tizen Web UI Builder Project</desc>
+</fileInfo>
+<document>
+<documentInfo>
+<title>test</title>
+<author>noname</author>
+<version>0.1.1</version>
+</documentInfo>
+<documentData>
+<tizen.nscreen>
+<screenDescLayers>
+<screenDescLayer attributes="required,fixed" category="COMMON" displayName="Common" name="common" order="0"/>
+</screenDescLayers>
+<screenProviders>
+<screenProvider pageId="page1" screenDescName="common"/>
+<screenProvider pageId="Favorites" screenDescName="common"/>
+<screenProvider pageId="page2" screenDescName="common"/>
+<screenProvider pageId="NewFavorite" screenDescName="common"/>
+<screenProvider pageId="Map" screenDescName="common"/>
+<screenProvider pageId="MapBis" screenDescName="common"/>
+<screenProvider pageId="page3" screenDescName="common"/>
+<screenProvider pageId="page4" screenDescName="common"/>
+</screenProviders>
+</tizen.nscreen>
+<pageData id="page1">
+<tizen.doc>
+<tizen.page id="page1">
+<tizen.header data-position="fixed" id="header1">
+<html.headingone id="headingone1" text="Geo Alarm"/>
+</tizen.header>
+<tizen.content data-handler="false" id="content1">
+<tizen.button id="newAlarm" text="New Alarm">
+<gotoPage destinationPage="page2" event="ontap" reverse="true" transition="fade"/>
+</tizen.button>
+<tizen.button id="existingAlarm" text="Existing Alarm">
+<gotoPage destinationPage="page4" event="ontap" reverse="true" transition="fade"/>
+</tizen.button>
+<tizen.button id="newFavorite" text="New Favorite">
+<gotoPage destinationPage="NewFavorite" event="ontap" reverse="true" transition="fade"/>
+</tizen.button>
+<tizen.button id="existingFavorite" text="Existing Favorite">
+<gotoPage destinationPage="page3" event="ontap" reverse="true" transition="fade"/>
+</tizen.button>
+</tizen.content>
+</tizen.page>
+</tizen.doc>
+</pageData>
+<pageData id="Favorites">
+<tizen.doc>
+<tizen.page id="Favorites">
+<tizen.header data-position="fixed" id="header5">
+<html.headingone id="headingone5" text="Favorites"/>
+</tizen.header>
+<tizen.content data-handler="false" id="content5">
+<html.divcontrol id="alarmsFavorite" style="overflow: hidden;"/>
+<tizen.button id="button7" text="Button">
+<gotoPage destinationPage="page2" event="ontap" reverse="true" transition="fade"/>
+</tizen.button>
+</tizen.content>
+</tizen.page>
+</tizen.doc>
+</pageData>
+<pageData id="page2">
+<tizen.doc>
+<tizen.page id="page2">
+<tizen.header data-position="fixed" id="header2">
+<html.headingone id="headingone2" text="New Alarm"/>
+</tizen.header>
+<tizen.content data-handler="false" id="content2">
+<html.label id="label1" text="Name"/>
+<html.textinput id="alarmName" type="text"/>
+<html.label id="label2" text="Place"/>
+<html.divcontrol id="alarmLat"/>
+<html.divcontrol id="alarmLong" style="overflow: hidden;"/>
+<tizen.button id="map" text="Map">
+<gotoPage destinationPage="MapBis" event="ontap" reverse="true" transition="fade"/>
+</tizen.button>
+<tizen.button id="favorite" text="Favorite">
+<gotoPage destinationPage="Favorites" event="ontap" reverse="true" transition="fade"/>
+</tizen.button>
+<html.label id="label3" text="Comment"/>
+<html.textarea id="alarmComment"/>
+<html.label id="label4" text="Distance to alarm"/>
+<html.textinput id="alarmDistance" type="number"/>
+<tizen.button id="button2" text="OK">
+<gotoPage destinationPage="page1" event="ontap" reverse="true" transition="fade"/>
+<event ontap="button2_ontap"/>
+</tizen.button>
+</tizen.content>
+</tizen.page>
+</tizen.doc>
+</pageData>
+<pageData id="NewFavorite">
+<tizen.doc>
+<tizen.page id="NewFavorite">
+<tizen.header data-position="fixed" id="header3">
+<html.headingone id="headingone3" text="New Favorite"/>
+</tizen.header>
+<tizen.content data-handler="false" id="content3">
+<html.label id="label5" text="Name"/>
+<html.textinput id="favoriteName" type="text"/>
+<html.label id="label6" text="Place"/>
+<html.divcontrol id="favoriteLat"/>
+<html.divcontrol id="favoriteLong" style="overflow: hidden;"/>
+<tizen.button id="map2" text="Map">
+<gotoPage destinationPage="MapBis" event="ontap" reverse="true" transition="fade"/>
+</tizen.button>
+<tizen.button id="button3" text="OK">
+<gotoPage destinationPage="page1" event="ontap" reverse="true" transition="fade"/>
+<event ontap="button3_ontap"/>
+</tizen.button>
+</tizen.content>
+</tizen.page>
+</tizen.doc>
+</pageData>
+<pageData id="Map">
+<tizen.doc>
+<tizen.page id="Map">
+<tizen.header data-position="fixed" id="header6">
+<html.headingone id="headingone6" text="Map"/>
+</tizen.header>
+<tizen.button id="button1" text="Back">
+<gotoPage destinationPage="Previouse Page" event="ontap" reverse="true" transition="fade"/>
+</tizen.button>
+</tizen.page>
+</tizen.doc>
+</pageData>
+<pageData id="MapBis">
+<tizen.doc>
+<tizen.page id="MapBis">
+<tizen.header data-position="fixed" id="header4">
+<html.headingone id="headingone4" text="MapBis"/>
+</tizen.header>
+<tizen.content data-handler="false" id="content4">
+<tizen.button id="button6" text="Back">
+<gotoPage destinationPage="Previouse Page" event="ontap" reverse="false" transition="fade"/>
+</tizen.button>
+</tizen.content>
+</tizen.page>
+</tizen.doc>
+</pageData>
+<pageData id="page3">
+<tizen.doc>
+<tizen.page id="page3">
+<tizen.header data-position="fixed" id="header7">
+<html.headingone id="headingone7" text="Existing Favorite"/>
+</tizen.header>
+<tizen.content data-handler="false" id="content6">
+<html.divcontrol id="favorites" style="overflow: hidden;"/>
+<tizen.button id="button4" text="Back">
+<gotoPage destinationPage="page1" event="ontap" reverse="false" transition="fade"/>
+</tizen.button>
+</tizen.content>
+</tizen.page>
+</tizen.doc>
+</pageData>
+<pageData id="page4">
+<tizen.doc>
+<tizen.page id="page4">
+<tizen.header data-position="fixed" id="header8">
+<html.headingone id="headingone8" text="Existing Alarm"/>
+</tizen.header>
+<tizen.content data-handler="false" id="content7">
+<html.divcontrol id="alarms" style="overflow: hidden;"/>
+<tizen.button id="button5" text="Back">
+<gotoPage destinationPage="page1" event="ontap" reverse="false" transition="fade"/>
+</tizen.button>
+</tizen.content>
+</tizen.page>
+</tizen.doc>
+</pageData>
+<dataBinding/>
+</documentData>
+</document>
+</tizenFile>

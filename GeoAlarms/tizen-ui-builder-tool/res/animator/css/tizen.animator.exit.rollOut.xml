@@ -1,0 +1,14 @@
+<animation id="tizen.animator.exit.rollOut" displayName="rollOut" smallIcon="tizen_animator_exit_rollout.png" icon.16 ="tizen_animator_exit_rollout.png" category="exit" description="TBD">
+<property name="0%" type="string" displayName="0%">
+<property name="opacity" type="string" displayName="opacity" default="1"/>
+<property name="translateX" type="string" displayName="translateX" default="0px"/>
+<property name="translateY" type="string" displayName="translateY" default="0px"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="0deg"/>
+</property>
+<property name="100%" type="string" displayName="100%">
+<property name="opacity" type="string" displayName="opacity" default="0"/>
+<property name="translateX" type="string" displayName="translateX" default="100%"/>
+<property name="translateY" type="string" displayName="translateY" default="0%"/>
+<property name="rotateZ" type="string" displayName="rotateZ" default="120deg"/>
+</property>
+<property name="duration" type="string" displayName="Duration" default="1s" /></animation>

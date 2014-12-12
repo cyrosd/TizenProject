@@ -1,0 +1,22 @@
+<animation id="tizen.animator.exit.flipOutY" displayName="flipOutY"
+	smallIcon="tizen_animator_exit_flipouty.png" icon.16="tizen_animator_exit_flipouty.png"
+	category="exit" description="TBD">
+	<property name="0%" type="string" displayName="0%">
+		<property name="opacity" type="string" displayName="opacity"
+			default="1" />
+		<property name="perspective" type="string" displayName="perspective"
+			default="400px" />
+		<property name="rotateY" type="string" displayName="rotateY"
+			default="0deg" />
+	</property>
+	<property name="100%" type="string" displayName="100%">
+		<property name="opacity" type="string" displayName="opacity"
+			default="0" />
+		<property name="perspective" type="string" displayName="perspective"
+			default="400px" />
+		<property name="rotateY" type="string" displayName="rotateY"
+			default="90deg" />
+	</property>
+	<property name="duration" type="string" displayName="Duration"
+		default="1s" />
+</animation>

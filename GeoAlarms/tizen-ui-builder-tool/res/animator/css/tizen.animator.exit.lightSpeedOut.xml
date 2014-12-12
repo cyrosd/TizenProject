@@ -1,0 +1,14 @@
+<animation id="tizen.animator.exit.lightSpeedOut" displayName="lightSpeedOut" smallIcon="tizen_animator_exit_lightspeedout.png" icon.16 ="tizen_animator_exit_lightspeedout.png" category="exit" description="TBD">
+<property name="0%" type="string" displayName="0%">
+<property name="opacity" type="string" displayName="opacity" default="1"/>
+<property name="translateX" type="string" displayName="translateX" default="0%"/>
+<property name="translateY" type="string" displayName="translateY" default="0%"/>
+<property name="skewX" type="string" displayName="skewX" default="0deg"/>
+</property>
+<property name="100%" type="string" displayName="100%">
+<property name="opacity" type="string" displayName="opacity" default="0"/>
+<property name="translateX" type="string" displayName="translateX" default="100%"/>
+<property name="translateY" type="string" displayName="translateY" default="0%"/>
+<property name="skewX" type="string" displayName="skewX" default="-30deg"/>
+</property>
+<property name="duration" type="string" displayName="Duration" default="1s" /></animation>

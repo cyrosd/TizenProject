@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tizenFile>
+    <fileInfo>
+        <type>tizen-config</type>
+        <version>0.0.1</version>
+        <desc>Tizen Web UI Builder Configure Descriptor</desc>
+    </fileInfo>
+    <devices>
+   		<device name="Mobile1 Portrait"/>
+   		<device name="Mobile1 Landscape"/>
+    </devices>
+</tizenFile>

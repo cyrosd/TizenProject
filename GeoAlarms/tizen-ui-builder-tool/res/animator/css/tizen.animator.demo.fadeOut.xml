@@ -1,0 +1,14 @@
+<animation id="tizen.animator.demo.fadeOut" displayName="fadeOut"
+	smallIcon="tizen_animator_fadeout_small.png" icon.16="tizen_animator_fadeout_16.png"
+	category="demo" description="TBD">
+	<property name="0%" type="string" displayName="0%">
+		<property name="opacity" type="string" displayName="Opacity"
+			default="1" />
+	</property>
+	<property name="100%" type="string" displayName="100%">
+		<property name="opacity" type="string" displayName="Opacity"
+			default="0" />
+	</property>
+	<property name="duration" type="string" displayName="Duration"
+		default="3s" />
+</animation>

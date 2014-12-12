@@ -1,0 +1,17 @@
+<animation id="tizen.animator.exit.bounceOutLeft" displayName="bounceOutLeft" smallIcon="tizen_animator_exit_bounceoutleft.png" icon.16 ="tizen_animator_exit_bounceoutleft.png" category="exit" description="TBD">
+<property name="0%" type="string" displayName="0%">
+<property name="opacity" type="string" displayName="opacity" default="1"/>
+<property name="translateX" type="string" displayName="translateX" default="0px"/>
+<property name="translateY" type="string" displayName="translateY" default="0px"/>
+</property>
+<property name="20%" type="string" displayName="20%">
+<property name="opacity" type="string" displayName="opacity" default="1"/>
+<property name="translateX" type="string" displayName="translateX" default="20px"/>
+<property name="translateY" type="string" displayName="translateY" default="0px"/>
+</property>
+<property name="100%" type="string" displayName="100%">
+<property name="opacity" type="string" displayName="opacity" default="0"/>
+<property name="translateX" type="string" displayName="translateX" default="-2000px"/>
+<property name="translateY" type="string" displayName="translateY" default="0px"/>
+</property>
+<property name="duration" type="string" displayName="Duration" default="1s" /></animation>

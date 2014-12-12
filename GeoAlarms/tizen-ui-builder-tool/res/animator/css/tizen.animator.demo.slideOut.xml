@@ -1,0 +1,22 @@
+<animation id="tizen.animator.demo.slideOut" displayName="slideOut"
+	smallIcon="tizen_animator_slideout_small.png" icon.16="tizen_animator_slideout_16.png"
+	category="demo" description="TBD">
+	<property name="0%" type="string" displayName="0%">
+		<property name="translateX" type="string" displayName="TranslateX"
+			default="0px" />
+		<property name="translateY" type="string" displayName="TranslateY"
+			default="0px" />
+		<property name="opacity" type="string" displayName="Opacity"
+			default="1" />
+	</property>
+	<property name="100%" type="string" displayName="100%">
+		<property name="translateX" type="string" displayName="TranslateX"
+			default="-200px" />
+		<property name="translateY" type="string" displayName="TranslateY"
+			default="0px" />
+		<property name="opacity" type="string" displayName="Opacity"
+			default="0" />
+	</property>
+	<property name="duration" type="string" displayName="Duration"
+		default="3s" />
+</animation>

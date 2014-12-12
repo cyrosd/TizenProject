@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE descriptors [<!ENTITY tizen.animator.emphasis.flash SYSTEM "css/tizen.animator.emphasis.flash.xml">
+<!ENTITY tizen.animator.emphasis.flashIn SYSTEM "css/tizen.animator.emphasis.flashIn.xml">
+<!ENTITY tizen.animator.emphasis.flashOut SYSTEM "css/tizen.animator.emphasis.flashOut.xml">
+<!ENTITY tizen.animator.emphasis.bounce SYSTEM "css/tizen.animator.emphasis.bounce.xml">
+<!ENTITY tizen.animator.emphasis.shake SYSTEM "css/tizen.animator.emphasis.shake.xml">
+<!ENTITY tizen.animator.emphasis.tada SYSTEM "css/tizen.animator.emphasis.tada.xml">
+<!ENTITY tizen.animator.emphasis.swing SYSTEM "css/tizen.animator.emphasis.swing.xml">
+<!ENTITY tizen.animator.emphasis.wobble SYSTEM "css/tizen.animator.emphasis.wobble.xml">
+<!ENTITY tizen.animator.emphasis.pulse SYSTEM "css/tizen.animator.emphasis.pulse.xml">
+<!ENTITY tizen.animator.emphasis.flip SYSTEM "css/tizen.animator.emphasis.flip.xml">
+<!ENTITY tizen.animator.entrance.flipInX SYSTEM "css/tizen.animator.entrance.flipInX.xml">
+<!ENTITY tizen.animator.entrance.flipInY SYSTEM "css/tizen.animator.entrance.flipInY.xml">
+<!ENTITY tizen.animator.entrance.fadeIn SYSTEM "css/tizen.animator.entrance.fadeIn.xml">
+<!ENTITY tizen.animator.entrance.fadeInUp SYSTEM "css/tizen.animator.entrance.fadeInUp.xml">
+<!ENTITY tizen.animator.entrance.fadeInDown SYSTEM "css/tizen.animator.entrance.fadeInDown.xml">
+<!ENTITY tizen.animator.entrance.fadeInLeft SYSTEM "css/tizen.animator.entrance.fadeInLeft.xml">
+<!ENTITY tizen.animator.entrance.fadeInRight SYSTEM "css/tizen.animator.entrance.fadeInRight.xml">
+<!ENTITY tizen.animator.entrance.fadeInUpBig SYSTEM "css/tizen.animator.entrance.fadeInUpBig.xml">
+<!ENTITY tizen.animator.entrance.fadeInDownBig SYSTEM "css/tizen.animator.entrance.fadeInDownBig.xml">
+<!ENTITY tizen.animator.entrance.fadeInLeftBig SYSTEM "css/tizen.animator.entrance.fadeInLeftBig.xml">
+<!ENTITY tizen.animator.entrance.fadeInRightBig SYSTEM "css/tizen.animator.entrance.fadeInRightBig.xml">
+<!ENTITY tizen.animator.entrance.slideInDown SYSTEM "css/tizen.animator.entrance.slideInDown.xml">
+<!ENTITY tizen.animator.entrance.slideInLeft SYSTEM "css/tizen.animator.entrance.slideInLeft.xml">
+<!ENTITY tizen.animator.entrance.slideInRight SYSTEM "css/tizen.animator.entrance.slideInRight.xml">
+<!ENTITY tizen.animator.entrance.bounceIn SYSTEM "css/tizen.animator.entrance.bounceIn.xml">
+<!ENTITY tizen.animator.entrance.bounceInDown SYSTEM "css/tizen.animator.entrance.bounceInDown.xml">
+<!ENTITY tizen.animator.entrance.bounceInUp SYSTEM "css/tizen.animator.entrance.bounceInUp.xml">
+<!ENTITY tizen.animator.entrance.bounceInLeft SYSTEM "css/tizen.animator.entrance.bounceInLeft.xml">
+<!ENTITY tizen.animator.entrance.bounceInRight SYSTEM "css/tizen.animator.entrance.bounceInRight.xml">
+<!ENTITY tizen.animator.entrance.rotateIn SYSTEM "css/tizen.animator.entrance.rotateIn.xml">
+<!ENTITY tizen.animator.entrance.rotateInDownLeft SYSTEM "css/tizen.animator.entrance.rotateInDownLeft.xml">
+<!ENTITY tizen.animator.entrance.rotateInDownRight SYSTEM "css/tizen.animator.entrance.rotateInDownRight.xml">
+<!ENTITY tizen.animator.entrance.rotateInUpLeft SYSTEM "css/tizen.animator.entrance.rotateInUpLeft.xml">
+<!ENTITY tizen.animator.entrance.rotateInUpRight SYSTEM "css/tizen.animator.entrance.rotateInUpRight.xml">
+<!ENTITY tizen.animator.entrance.lightSpeedIn SYSTEM "css/tizen.animator.entrance.lightSpeedIn.xml">
+<!ENTITY tizen.animator.entrance.rollIn SYSTEM "css/tizen.animator.entrance.rollIn.xml">
+<!ENTITY tizen.animator.exit.flipOutX SYSTEM "css/tizen.animator.exit.flipOutX.xml">
+<!ENTITY tizen.animator.exit.flipOutY SYSTEM "css/tizen.animator.exit.flipOutY.xml">
+<!ENTITY tizen.animator.exit.fadeOut SYSTEM "css/tizen.animator.exit.fadeOut.xml">
+<!ENTITY tizen.animator.exit.fadeOutUp SYSTEM "css/tizen.animator.exit.fadeOutUp.xml">
+<!ENTITY tizen.animator.exit.fadeOutDown SYSTEM "css/tizen.animator.exit.fadeOutDown.xml">
+<!ENTITY tizen.animator.exit.fadeOutLeft SYSTEM "css/tizen.animator.exit.fadeOutLeft.xml">
+<!ENTITY tizen.animator.exit.fadeOutRight SYSTEM "css/tizen.animator.exit.fadeOutRight.xml">
+<!ENTITY tizen.animator.exit.fadeOutUpBig SYSTEM "css/tizen.animator.exit.fadeOutUpBig.xml">
+<!ENTITY tizen.animator.exit.fadeOutDownBig SYSTEM "css/tizen.animator.exit.fadeOutDownBig.xml">
+<!ENTITY tizen.animator.exit.fadeOutLeftBig SYSTEM "css/tizen.animator.exit.fadeOutLeftBig.xml">
+<!ENTITY tizen.animator.exit.fadeOutRightBig SYSTEM "css/tizen.animator.exit.fadeOutRightBig.xml">
+<!ENTITY tizen.animator.exit.slideOutUp SYSTEM "css/tizen.animator.exit.slideOutUp.xml">
+<!ENTITY tizen.animator.exit.slideOutLeft SYSTEM "css/tizen.animator.exit.slideOutLeft.xml">
+<!ENTITY tizen.animator.exit.slideOutRight SYSTEM "css/tizen.animator.exit.slideOutRight.xml">
+<!ENTITY tizen.animator.exit.bounceOut SYSTEM "css/tizen.animator.exit.bounceOut.xml">
+<!ENTITY tizen.animator.exit.bounceOutDown SYSTEM "css/tizen.animator.exit.bounceOutDown.xml">
+<!ENTITY tizen.animator.exit.bounceOutUp SYSTEM "css/tizen.animator.exit.bounceOutUp.xml">
+<!ENTITY tizen.animator.exit.bounceOutLeft SYSTEM "css/tizen.animator.exit.bounceOutLeft.xml">
+<!ENTITY tizen.animator.exit.bounceOutRight SYSTEM "css/tizen.animator.exit.bounceOutRight.xml">
+<!ENTITY tizen.animator.exit.rotateOut SYSTEM "css/tizen.animator.exit.rotateOut.xml">
+<!ENTITY tizen.animator.exit.rotateOutDownLeft SYSTEM "css/tizen.animator.exit.rotateOutDownLeft.xml">
+<!ENTITY tizen.animator.exit.rotateOutDownRight SYSTEM "css/tizen.animator.exit.rotateOutDownRight.xml">
+<!ENTITY tizen.animator.exit.rotateOutUpLeft SYSTEM "css/tizen.animator.exit.rotateOutUpLeft.xml">
+<!ENTITY tizen.animator.exit.rotateOutUpRight SYSTEM "css/tizen.animator.exit.rotateOutUpRight.xml">
+<!ENTITY tizen.animator.exit.lightSpeedOut SYSTEM "css/tizen.animator.exit.lightSpeedOut.xml">
+<!ENTITY tizen.animator.exit.rollOut SYSTEM "css/tizen.animator.exit.rollOut.xml">
+<!ENTITY tizen.animator.motionPath.move SYSTEM "css/tizen.animator.motionPath.move.xml">
+<!ENTITY tizen.animator.motionPath.curve SYSTEM "css/tizen.animator.motionPath.curve.xml">
+]>
+<descriptors xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tizen="http://www.tizen.org/2012/uibuilder/descriptor">
+&tizen.animator.emphasis.flash;
+&tizen.animator.emphasis.flashIn;
+&tizen.animator.emphasis.flashOut;
+&tizen.animator.emphasis.bounce;
+&tizen.animator.emphasis.shake;
+&tizen.animator.emphasis.tada;
+&tizen.animator.emphasis.swing;
+&tizen.animator.emphasis.wobble;
+&tizen.animator.emphasis.pulse;
+&tizen.animator.emphasis.flip;
+&tizen.animator.entrance.flipInX;
+&tizen.animator.entrance.flipInY;
+&tizen.animator.entrance.fadeIn;
+&tizen.animator.entrance.fadeInUp;
+&tizen.animator.entrance.fadeInDown;
+&tizen.animator.entrance.fadeInLeft;
+&tizen.animator.entrance.fadeInRight;
+&tizen.animator.entrance.fadeInUpBig;
+&tizen.animator.entrance.fadeInDownBig;
+&tizen.animator.entrance.fadeInLeftBig;
+&tizen.animator.entrance.fadeInRightBig;
+&tizen.animator.entrance.slideInDown;
+&tizen.animator.entrance.slideInLeft;
+&tizen.animator.entrance.slideInRight;
+&tizen.animator.entrance.bounceIn;
+&tizen.animator.entrance.bounceInDown;
+&tizen.animator.entrance.bounceInUp;
+&tizen.animator.entrance.bounceInLeft;
+&tizen.animator.entrance.bounceInRight;
+&tizen.animator.entrance.rotateIn;
+&tizen.animator.entrance.rotateInDownLeft;
+&tizen.animator.entrance.rotateInDownRight;
+&tizen.animator.entrance.rotateInUpLeft;
+&tizen.animator.entrance.rotateInUpRight;
+&tizen.animator.entrance.lightSpeedIn;
+&tizen.animator.entrance.rollIn;
+&tizen.animator.exit.flipOutX;
+&tizen.animator.exit.flipOutY;
+&tizen.animator.exit.fadeOut;
+&tizen.animator.exit.fadeOutUp;
+&tizen.animator.exit.fadeOutDown;
+&tizen.animator.exit.fadeOutLeft;
+&tizen.animator.exit.fadeOutRight;
+&tizen.animator.exit.fadeOutUpBig;
+&tizen.animator.exit.fadeOutDownBig;
+&tizen.animator.exit.fadeOutLeftBig;
+&tizen.animator.exit.fadeOutRightBig;
+&tizen.animator.exit.slideOutUp;
+&tizen.animator.exit.slideOutLeft;
+&tizen.animator.exit.slideOutRight;
+&tizen.animator.exit.bounceOut;
+&tizen.animator.exit.bounceOutDown;
+&tizen.animator.exit.bounceOutUp;
+&tizen.animator.exit.bounceOutLeft;
+&tizen.animator.exit.bounceOutRight;
+&tizen.animator.exit.rotateOut;
+&tizen.animator.exit.rotateOutDownLeft;
+&tizen.animator.exit.rotateOutDownRight;
+&tizen.animator.exit.rotateOutUpLeft;
+&tizen.animator.exit.rotateOutUpRight;
+&tizen.animator.exit.lightSpeedOut;
+&tizen.animator.exit.rollOut;
+&tizen.animator.motionPath.move;
+&tizen.animator.motionPath.curve;
+</descriptors>
